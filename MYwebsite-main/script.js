@@ -1,3 +1,19 @@
+const bar = document.getElementById('bar');
+const fechar = document.getElementById('fechar');
+const nav = document.getElementById('navbar');
+
+if (bar) {
+  bar.addEventListener('click', () => {
+    nav.classList.add('active');
+  })
+};
+
+if (fechar) {
+  fechar.addEventListener('click', () => {
+    nav.classList.remove('active');
+  })
+};
+
 //M: botão de tradução (Favor NÃO mexer sem perguntar)
 var translations = {
   'portuguese': {
