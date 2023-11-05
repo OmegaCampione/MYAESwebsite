@@ -19,7 +19,7 @@ var translations = {
     'textofeat5' : 'Garantia de satisfação',
     'textofeat6' : 'Suporte 24/7',
     'destaquepro' : 'Produtos em Destaque',
-    'anuncio1' : 'Nova coleção de design Aesthetic',
+    'anuncio1' : 'Coleção de Design Aesthetic',
 
     //tradução em português acima
   },
@@ -38,11 +38,11 @@ var translations = {
     'textofeat1' : 'Free Shipping',
     'textofeat2' : 'Online Order',
     'textofeat3' : 'Save Money',
-    'textofeat4' : 'Promotions',
+    'textofeat4' : 'Offers',
     'textofeat5' : 'Satisfaction Guarantee',
     'textofeat6' : '24/7 Support',
     'destaquepro' : 'Featured Products',
-    'anuncio1' : 'New Aesthetic design collection',
+    'anuncio1' : 'Aesthetic Design Collection',
 
     //tradução em inglês acima
   },
