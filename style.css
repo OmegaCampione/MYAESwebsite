@@ -359,6 +359,10 @@ body{
 #banner h2 span{
     color:#9b0e0e;
 }
+#bannerwddesc span.highlight {
+    color: #9b0e0e; 
+}
+
 
 #banner button:hover{
     background: #088178;
@@ -481,6 +485,10 @@ width: 40%;
 }
 
 #noticias p span{
+    color:#ffbd27;
+}
+
+#noticias p span.highlight{
     color:#ffbd27;
 }
 
