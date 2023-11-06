@@ -564,6 +564,109 @@ footer .copyright{
     text-align: center;
 }
 
+/* inicio (shop page) */
+
+#loja-header{
+    background-image: url(/img/bannerloja.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#loja-header h2,
+#loja-header p{
+color: #ffffff ;
+}
+
+#paginação{
+    text-align: center;
+}
+
+#paginação a{
+    text-decoration: none;
+    background-color: #e59ce5  ;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #088178;
+    font-weight: 600;
+}
+
+#paginação a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* pagina individual do produto */
+  
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin: 50px;
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: white;
+}
+
+#prodetails .single-pro-details input span{
+    line-height: 25px;
+}
+
+
 /*resp*/
 @media (max-width:799px) {
     .section-p1 {
@@ -625,12 +728,10 @@ footer .copyright{
 
         justify-content: center;
     }
-    
     #produto-1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
-
     #produto-1 .pro {
     margin: 15px 15px;
 }
@@ -649,6 +750,30 @@ footer .copyright{
 }
     #noticias .form {
     width: 70%;
+}
+    h6 {
+        font-weight: 700;
+        font-size: 18px;
+}
+    #prodetails .single-pro-details h4 {
+        font-size: 23px;
+        padding: 21px 0 16px 0;
+}
+    #loja-header h2{
+    font-size: 45px;
+}
+    #prodetails .single-pro-details {
+        width: 88%;
+        padding-top: 25px;
+}
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin: 18px;
+}
+    #prodetails .single-pro-details select {
+        display: block;
+        padding: 6px 10px;
+        margin-bottom: 10px;
 }
 }
 
@@ -706,4 +831,19 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+    #loja-header h2{
+        font-size: 23px;
+    }
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin: 0px;
 }
+    #prodetails .single-pro-details {
+        width: 100%;
+}
+}
+

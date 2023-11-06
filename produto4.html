@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--M:
+OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
+
+<head>
+    <link rel="stylesheet" href="style.css"> <!--M: ref CSS, evitar mudar posição-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulomain">MY Aes</title>
+    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script> <!--M: linha unica de Java pra setup do fontawesome (não consegui fazer referenciado pelo script.js)-->
+    
+<body>
+
+    <section id="header">
+        <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" id="inicioh">Início</a></li>
+                <li><a class="active" href="loja.html" id="lojah">Loja</a></li>
+                <li><a href="blog.html" id="blogh">Blog</a></li>
+                <li><a href="sobre.html" id="sobreh">Sobre</a></li>
+                <li><a href="contato.html" id="contatoh">Contato</a></li>
+                <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
+                <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/f4.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6 id="textoprod1">Camisa Casual</h6>
+            <h4 id="textoprod2">T shirt casual masculina</h4>
+            <h2 id="textoloja3">R$144,99</h2>
+            <select>
+                <option id="textoloja4">Escolher Tamanho</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>P</option>
+                <option>M</option>
+                <option>L</option>
+            </select>
+            <input type="number" value="1">
+            <button id="textoloja5" class="normal">Adicionar ao carrinho</button>
+            <h4 id="textoloja6">Detalhes do produto</h4>
+            <span id="textoloja7">Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração.
+                Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.
+                Ideal para festa, eventos e praia.
+                Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.</span>
+        </div>
+    </section>
+
+    <section id="produto-1"  class="section-p1">
+        <h2 id="textoloja8">Produtos Em Destaque</h2> 
+        <p id="textoloja9">Nova Coleção de Design</p> <!--TBD-->
+        <div class="pro-container"> <!--div dos produtos-->
+            <div class="pro">
+                <img src="img/n1.jpg" alt="produto1">
+                <div class="desc">
+                    <span id="marca2.1">adidas</span> <!--marca do item-->
+                    <h5 id="item2.1">Cartoon Astronaut T-shirts</h5> <!--nome do item-->
+                    <div class="star"> <!--estrela de review (fontawesome)-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id="custopro2.1">R$300</h4> <!--preço do item (M: TBD: tradução incluir dólar?)-->
+                </div>  
+                <a href="#"><i class="far fa-plus-square cart"></i></a> <!--M:puxar no CSS apenas com a classe "cart"!-->
+            </div>
+            <div class="pro">
+                <img src="img/n2.jpg" alt="produto1">
+                <div class="desc">
+                    <span id="marca2.2">adidas</span>
+                    <h5 id="item2.2">Cartoon Astronaut T-shirts</h5>
+                    <div class="star"> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id="custopro2.2">R$300</h4>
+                </div>  
+                <a href="#"><i class="far fa-plus-square cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/n3.jpg" alt="produto1">
+                <div class="desc">
+                    <span id="marca2.3">adidas</span>
+                    <h5 id="item2.3">Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id="custopro2.3">R$300</h4>
+                </div>  
+                <a href="#"><i class="far fa-plus-square cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/n4.jpg" alt="produto1">
+                <div class="desc">
+                    <span id="marca2.4">adidas</span>
+                    <h5 id="item2.4">Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id="custopro2.4">R$300</h4>
+                </div>  
+                <a href="#"><i class="far fa-plus-square cart"></i></a>
+            </div>
+           </div>
+    </section>
+
+    <section id="noticias" class="section-p1 section-m1">
+        <div class="textonot">
+            <h4>Se Inscreva para Receber Novidades</h4>
+            <p>Receba atualizações por email sobre nossos mais novos produtos e <span>ofertas especiais</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu email">
+            <button class="normal">Inscreva-se</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="cor">
+            <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
+            <h4>Contato</h4>
+            <p><strong>Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
+            <p><strong>Telefone:</strong> +55 (81)000000000</p>
+            <div class="redes">
+                <h4>Siga-nos!</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cor">
+            <h4>Sobre</h4>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+        <div class="cor">
+                <h4>Minha Conta</h4>
+                <a href="#">Login</a>
+                <a href="#">Ver Carrinho</a>
+                <a href="#">Lista de Desejos</a>
+                <a href="#">Ajuda</a>
+        </div>
+        <div id="copyright">
+            <p>© 2023, MYstic Aesthetic</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!--M: ref JS, deixar no final-->
+</body>
+
+</head>
