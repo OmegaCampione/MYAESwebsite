@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--M:
+OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
+
+<head>
+    <link rel="stylesheet" href="style.css"> <!--M: ref CSS, evitar mudar posição-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulomain">MY Aes</title>
+    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script> <!--M: linha unica de Java pra setup do fontawesome (não consegui fazer referenciado pelo script.js)-->
+    
+<body>
+
+    <section id="header">
+        <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" id="inicioh">Início</a></li>
+                <li><a href="loja.html" id="lojah">Loja</a></li>
+                <li><a href="blog.html" id="blogh">Blog</a></li>
+                <li><a href="sobre.html" id="sobreh">Sobre</a></li>
+                <li><a class="active" href="contato.html" id="contatoh">Contato</a></li>
+                <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
+                <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="contato-header">
+        <h2 id="textocontat1">#Vamos_Conversar</h2>
+        <p id="textocontat2">DEIXE UMA MENSAGEM. Adoramos escutar você</p>
+    </section>
+
+    <section id="contact-details" class="section-p1"> 
+        <div class="details">
+            <span id="textocontat3">ENTRAR EM CONTATO</span>
+            <h2 id="textocontat4">Visite uma de nossas agências ou entre em contato conosco hoje mesmo</h2>
+            <h3 id="textocontat5">Sede</h3>
+                <div>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>Avenida Adjar da Silva Casé, 800 - Indianópolis</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>mysticaesthetics@hotmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>3003-4420</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <p id="textocontat6">Segunda a Sábado: 7:00 am - 22:00 pm</p>
+                    </li>
+                </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.086404019125!2d-35.95552178857017!3d-8.294200083390733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98be8cf3157dd%3A0x98a0a3ecad4be817!2sCentro%20Universit%C3%A1rio%20UniFavip%20-%20Wyden%20-%20Entrada%20Principal!5e0!3m2!1spt-BR!2sbr!4v1699480286347!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span id="textoforms1">DEIXE UMA MENSAGEM</span>
+            <h2 id="textoforms2">Preencha com seus dados</h2>
+            <input type="text" placeholder="Seu nome">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Assunto">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <button class="normal" >Enviar</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/matheuslindo.jpg" alt="">
+                <p><span>Matheus Lindo</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/yuri.jpg" alt="">
+                <p><span>Yuri Bezerra</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/vinicius.jpg" alt="">
+                <p><span>Vinicius Tenório</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="section-p1 section-m1">
+        <div class="textonot">
+            <h4>Se Inscreva para Receber Novidades</h4>
+            <p>Receba atualizações por email sobre nossos mais novos produtos e <span>ofertas especiais</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu email">
+            <button class="normal">Inscreva-se</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="cor">
+            <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
+            <h4>Contato</h4>
+            <p><strong>Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
+            <p><strong>Telefone:</strong> +55 (81)000000000</p>
+            <div class="redes">
+                <h4>Siga-nos!</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cor">
+            <h4>Sobre</h4>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+        <div class="cor">
+                <h4>Minha Conta</h4>
+                <a href="#">Login</a>
+                <a href="#">Ver Carrinho</a>
+                <a href="#">Lista de Desejos</a>
+                <a href="#">Ajuda</a>
+        </div>
+        <div id="copyright">
+            <p>© 2023, MYstic Aesthetic</p>
+        </div>
+    </footer>
+
+    <script src="java/script.js"></script>
+    <script src="java/tradcontat.js"></script>
+</body>
+
+</head>
