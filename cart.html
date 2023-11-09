@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--M:
+OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
+
+<head>
+    <link rel="stylesheet" href="style.css">  <!--ref CSS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulomain">MY Aes</title>
+    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script>
+    
+<body>
+
+    <section id="header">
+        <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" id="inicioh">Início</a></li>
+                <li><a href="loja.html" id="lojah">Loja</a></li>
+                <li><a href="blog.html" id="blogh">Blog</a></li>
+                <li><a href="sobre.html" id="sobreh">Sobre</a></li>
+                <li><a href="contato.html" id="contatoh">Contato</a></li>
+                <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
+                <li><a class="active" id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="cart-header">
+        <h2 id="textocartheader1">#Finalizando_Compras</h2>
+        <p id="textocartheader2">Confira seus produtos e finalize suas compras</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td id="textocart1">Remover</td>
+                    <td id="textocart2">Imagem</td>
+                    <td id="textocart3">Produto</td>
+                    <td id="textocart4">Preço</td>
+                    <td id="textocart5">Quantidade</td>
+                    <td id="textocart6">Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>R$144,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$144,99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>R$144,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$144,99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>R$144,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$144,99</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3 id="textocupom">Aplicar Cupom</h3>
+            <div>
+                <input type="text" id="placeholdercupom" placeholder="Insira seu cupom">
+                <button class="normal" d="textobutcupom2">Aplicar</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3 id="textocarrinho1">Valor Total</h3>
+            <table>
+                <tr>
+                    <td d="textocarrinho2">Valor Subtotal</td>
+                    <td>R$ 434,97 </td>
+                </tr>
+                <tr>
+                    <td d="textocarrinho3">Frete</td>
+                    <td d="textocarrinho4">Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R$ 434,97</strong></td>
+                </tr>
+            </table>
+            <button class="normal" id="textocarrinho5">Prosseguir para o pagamento</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="cor">
+            <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
+            <h4 id="ftcont">Contato</h4>
+            <p><strong id="ftendere">Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
+            <p><strong id="ftfone">Telefone:</strong> +55 (81)000000000</p>
+            <div class="redes">
+                <h4 id="ftsiga">Siga-nos!</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cor">
+            <h4 id="ftsobre">Sobre</h4>
+            <a id="ftsobrenos" href="#">Sobre Nós</a>
+            <a id="ftpolit" href="#">Política de Privacidade</a>
+            <a id="fttermos" href="#">Termos e Condições</a>
+            <a id="ftcontate" href="#">Contate-nos</a>
+        </div>
+        <div class="cor">
+                <h4 id="ftconta">Minha Conta</h4>
+                <a id="ftlogin" href="#">Login</a>
+                <a id="ftcarrinho" href="#">Ver Carrinho</a>
+                <a id="ftdesejos" href="#">Lista de Desejos</a>
+                <a id="ftajuda" href="#">Ajuda</a>
+        </div>
+        <div id="copyright">
+            <p id="ftcopyright">© 2023, MYstic Aesthetic</p>
+        </div>
+    </footer>
+
+    <script src="java/script.js"></script>
+    <script src="java/tradcart.js"></script>
+</body>
+
+</head>
