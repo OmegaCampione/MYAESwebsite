@@ -5,12 +5,12 @@
 OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
 
 <head>
-    <link rel="stylesheet" href="style.css"> <!--M: ref CSS, evitar mudar posição-->
+    <link rel="stylesheet" href="style.css">  <!--ref CSS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="titulomain">MY Aes</title>
-    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script> <!--M: linha unica de Java pra setup do fontawesome (não consegui fazer referenciado pelo script.js)-->
+    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script>
     
 <body>
 
@@ -74,48 +74,48 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         <form action="">
             <span id="textoforms1">DEIXE UMA MENSAGEM</span>
             <h2 id="textoforms2">Preencha com seus dados</h2>
-            <input type="text" placeholder="Seu nome">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Assunto">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <button class="normal" >Enviar</button>
+            <input type="text" id="placeholdernome" placeholder="Seu nome">
+            <input type="text" id="placeholderemail" placeholder="E-mail">
+            <input type="text" id="placeholderassunto" placeholder="Assunto">
+            <textarea name="" cols="30" rows="10" id="placeholdermensagem" placeholder="Sua mensagem"></textarea>
+            <button id="formenviar" class="normal" >Enviar</button>
         </form>
 
         <div class="people">
             <div>
                 <img src="img/matheuslindo.jpg" alt="">
-                <p><span>Matheus Lindo</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+                <p id="mathdesc"> <span>Matheus Benjamim</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
             </div>
             <div>
                 <img src="img/yuri.jpg" alt="">
-                <p><span>Yuri Bezerra</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+                <p id="yuridesc"> <span>Yuri Bezerra</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
             </div>
             <div>
                 <img src="img/vinicius.jpg" alt="">
-                <p><span>Vinicius Tenório</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
+                <p id="inutildesc"> <span>Vinicius Tenório</span> Estudante Universitário CCO <br> Telefone: 081 00000-0000 <br> Email: exemplodeemail@gmail.com</p>
             </div>
         </div>
     </section>
 
     <section id="noticias" class="section-p1 section-m1">
         <div class="textonot">
-            <h4>Se Inscreva para Receber Novidades</h4>
-            <p>Receba atualizações por email sobre nossos mais novos produtos e <span>ofertas especiais</span></p>
+            <h4 id="notmain">Se Inscreva para Receber Novidades</h4>
+            <p id="notdesc">Receba atualizações por email sobre nossos mais novos produtos e <span class="highlight">ofertas especiais</span></p>
         </div>
         <div class="form">
-            <input type="text" placeholder="Seu email">
-            <button class="normal">Inscreva-se</button>
+            <input type="text" id="emailInput" placeholder="Seu email">
+            <button id= "notbutton" class="normal">Inscreva-se</button>
         </div>
     </section>
 
     <footer class="section-p1">
         <div class="cor">
             <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
-            <h4>Contato</h4>
-            <p><strong>Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
-            <p><strong>Telefone:</strong> +55 (81)000000000</p>
+            <h4 id="ftcont">Contato</h4>
+            <p><strong id="ftendere">Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
+            <p><strong id="ftfone">Telefone:</strong> +55 (81)000000000</p>
             <div class="redes">
-                <h4>Siga-nos!</h4>
+                <h4 id="ftsiga">Siga-nos!</h4>
                 <div class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-x-twitter"></i>
@@ -125,21 +125,21 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
             </div>
         </div>
         <div class="cor">
-            <h4>Sobre</h4>
-            <a href="#">Sobre Nós</a>
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Termos e Condições</a>
-            <a href="#">Contate-nos</a>
+            <h4 id="ftsobre">Sobre</h4>
+            <a id="ftsobrenos" href="#">Sobre Nós</a>
+            <a id="ftpolit" href="#">Política de Privacidade</a>
+            <a id="fttermos" href="#">Termos e Condições</a>
+            <a id="ftcontate" href="#">Contate-nos</a>
         </div>
         <div class="cor">
-                <h4>Minha Conta</h4>
-                <a href="#">Login</a>
-                <a href="#">Ver Carrinho</a>
-                <a href="#">Lista de Desejos</a>
-                <a href="#">Ajuda</a>
+                <h4 id="ftconta">Minha Conta</h4>
+                <a id="ftlogin" href="#">Login</a>
+                <a id="ftcarrinho" href="#">Ver Carrinho</a>
+                <a id="ftdesejos" href="#">Lista de Desejos</a>
+                <a id="ftajuda" href="#">Ajuda</a>
         </div>
         <div id="copyright">
-            <p>© 2023, MYstic Aesthetic</p>
+            <p id="ftcopyright">© 2023, MYstic Aesthetic</p>
         </div>
     </footer>
 
