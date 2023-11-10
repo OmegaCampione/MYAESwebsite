@@ -1,4 +1,5 @@
-//M: botão de tradução (Favor NÃO mexer sem perguntar)
+//botão de tradução (Favor NÃO mexer sem perguntar)
+
 var translations = {
     'portuguese': {
       'botao-mudar-idioma': 'Mudar Idioma',

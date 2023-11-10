@@ -1,3 +1,5 @@
+// Funções de responsividade (NavBar/SideBar)
+
 const bar = document.getElementById('bar');
 const fechar = document.getElementById('fechar');
 const nav = document.getElementById('navbar');

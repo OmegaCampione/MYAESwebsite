@@ -1,5 +1,5 @@
+//botão de tradução (Favor NÃO mexer sem perguntar)
 
-//M: botão de tradução (Favor NÃO mexer sem perguntar)
 var translations = {
     'portuguese': {
       'botao-mudar-idioma': 'Mudar Idioma',
@@ -21,7 +21,6 @@ var translations = {
       'textofeat6' : 'Suporte 24/7',
       'destaquepro' : 'Produtos em Destaque',
       'anuncio1' : 'Coleção de Design Aesthetic',
-      'bannerwdmain' : 'Serviços de Reparo',
       'bannerwddesc': 'Até <span class="highlight">70% de Desconto</span> - Todas as Camisas e Acessórios',
       'bannerwdbutton' :'Ver Mais',
       'novidadespro' : 'Novidades',
@@ -82,7 +81,6 @@ var translations = {
       'textofeat6' : '24/7 Support',
       'destaquepro' : 'Featured Products',
       'anuncio1' : 'Aesthetic Design Collection',
-      'bannerwdmain' : 'Repair Services',
       'bannerwddesc': 'Up to <span class="highlight">70% Off</span> - All Shirts and Accessories',
       'bannerwdbutton' :'Explore More',
       'novidadespro' : 'New Arrivals',
@@ -168,9 +166,9 @@ var translations = {
     document.getElementById('b3desc2').textContent = translations[currentLanguage]['b3desc2'];
     document.getElementById('b3main3').textContent = translations[currentLanguage]['b3main3'];
     document.getElementById('b3desc3').textContent = translations[currentLanguage]['b3desc3'];
+    
     var bannerwddesc = document.getElementById('bannerwddesc');
     bannerwddesc.innerHTML = translations[currentLanguage]['bannerwddesc'];
-    document.getElementById('bannerwdmain').textContent = translations[currentLanguage]['bannerwdmain'];
     document.getElementById('bannerwdbutton').textContent = translations[currentLanguage]['bannerwdbutton'];
     document.getElementById('novidadespro').textContent = translations[currentLanguage]['novidadespro'];
     document.getElementById('anuncio2').textContent = translations[currentLanguage]['anuncio2'];
@@ -180,6 +178,7 @@ var translations = {
     document.getElementById('notbutton').textContent = translations[currentLanguage]['notbutton'];
     var emailInput = document.getElementById('emailInput');
     emailInput.placeholder = translations[currentLanguage]['emailInput'];
+
     document.getElementById('ftcont').textContent = translations[currentLanguage]['ftcont'];
     document.getElementById('ftendere').textContent = translations[currentLanguage]['ftendere'];
     document.getElementById('ftfone').textContent = translations[currentLanguage]['ftfone'];
@@ -196,5 +195,6 @@ var translations = {
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
 
   }
+
 
   document.getElementById('botao-mudar-idioma').addEventListener('click', changeLanguage);
