@@ -59,7 +59,7 @@ var translations = {
       'ftcarrinho': 'View Cart',
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
-      'ftcopyright': '© 2023, MYstic Aesthetic'
+      'ftcopyright': '© 2023, MYstic Aesthetic',
   
       //tradução em inglês acima
     },

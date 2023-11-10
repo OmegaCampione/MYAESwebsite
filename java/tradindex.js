@@ -57,10 +57,11 @@ var translations = {
       'ftcarrinho': 'Ver Carrinho',
       'ftdesejos': 'Lista de Desejos',
       'ftajuda': 'Ajuda',
-      'ftcopyright': '© 2023, MYstic Aesthetic'
+      'ftcopyright': '© 2023, MYstic Aesthetic',
 
 
     },
+
     'english': {
       'botao-mudar-idioma': 'Change Language',
       'lojah': 'Shop',
@@ -71,7 +72,7 @@ var translations = {
       'textomain1': 'Balacobaco\'s offers',
       'textomain2': 'High value bargains',
       'textomain3': 'On every product',
-      'textomain4': 'Save more with coupons $ up to 70% Off!',
+      'textomain4': 'Save more with coupons & up to 70% Off!',
       'botaomain' : 'Buy Now',
       'textofeat1' : 'Free Shipping',
       'textofeat2' : 'Online Order',
@@ -117,7 +118,7 @@ var translations = {
       'ftcarrinho': 'View Cart',
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
-      'ftcopyright': '© 2023, MYstic Aesthetic'
+      'ftcopyright': '© 2023, MYstic Aesthetic',
   
       //tradução em inglês acima
     },
@@ -166,7 +167,6 @@ var translations = {
     document.getElementById('b3desc2').textContent = translations[currentLanguage]['b3desc2'];
     document.getElementById('b3main3').textContent = translations[currentLanguage]['b3main3'];
     document.getElementById('b3desc3').textContent = translations[currentLanguage]['b3desc3'];
-    
     var bannerwddesc = document.getElementById('bannerwddesc');
     bannerwddesc.innerHTML = translations[currentLanguage]['bannerwddesc'];
     document.getElementById('bannerwdbutton').textContent = translations[currentLanguage]['bannerwdbutton'];
@@ -178,7 +178,6 @@ var translations = {
     document.getElementById('notbutton').textContent = translations[currentLanguage]['notbutton'];
     var emailInput = document.getElementById('emailInput');
     emailInput.placeholder = translations[currentLanguage]['emailInput'];
-
     document.getElementById('ftcont').textContent = translations[currentLanguage]['ftcont'];
     document.getElementById('ftendere').textContent = translations[currentLanguage]['ftendere'];
     document.getElementById('ftfone').textContent = translations[currentLanguage]['ftfone'];
@@ -193,6 +192,7 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+
 
   }
 

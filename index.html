@@ -11,7 +11,7 @@
 Considerações:
    Todas as versões do projeto estão armazenadas em um repositório privado no GitHub, que será publicado após a conclusão do mesmo;
    Diversas, provavelmente a maioria das imagens atuais são apenas PlaceHolders a fins de design e planejamento;
-   Nem todas as páginas de produto foram criadas, atualmente apenas os 4 primeiros produtos são clicáveis;
+   Nem todas as páginas de produto foram criadas, atualmente apenas os 4 primeiros produtos são clicáveis, só na Loja;
    A página de carrinho (cart.html) está no estágio inicial e ainda não possui funcionalidades, sendo apenas um protótipo visual;
    As páginas de "Sobre" e "Blog" ainda estão sendo desenvolvidas e não foram implementadas;
    Certas funções ainda serão adicionadas (i.e: Sistema de Filtros na Loja, Dark Mode, possíveis sistemas de Login e Review, etc.).
@@ -27,7 +27,7 @@ Considerações:
 OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
 
 <head>
-    <link rel="stylesheet" href="style.css"> <!--ref CSS, evitar mudar posição-->
+    <link rel="stylesheet" href="style.css"> <!--M: ref CSS, evitar mudar posição-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,7 +61,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         <h2 id="textomain2">Barganhas de alto valor</h2>
         <h1 id="textomain3">Em todos os produtos</h1>
         <p id="textomain4">Economize mais com cupons & até 70% de desconto!</p>
-        <button id="botaomain">Compre Agora</button> <!--ref (js)-->
+        <button id="botaomain">Compre Agora</button> <!--to be ref (js)-->
     </section>
 
     <section id="feature" class="section-p1"> <!--info misc-->
@@ -91,9 +91,11 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         </div>
     </section>
 
-    <section id="produto-1"  class="section-p1"> <!--Apenas os 4 primeiros produtos são atualmente clicáveis-->
+    <section id="produto-1"  class="section-p1">
+        <h2 id="destaquepro">Produtos em Destaque</h2> 
+        <p id="anuncio1">Coleção de Design Aesthetic</p> <!--TBD-->
         <div class="pro-container"> <!--div dos produtos-->
-            <div class="pro" onclick="window.location.href='produto1.html'">
+            <div class="pro">
                 <img src="img/f1.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca1">adidas</span> <!--marca do item-->
@@ -109,7 +111,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                 </div>  
                 <a href="#"><i class="far fa-plus-square cart"></i></a> <!--puxar no CSS apenas com a classe "cart"!-->
             </div>
-            <div class="pro" onclick="window.location.href='produto2.html'">
+            <div class="pro">
                 <img src="img/f2.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2">adidas</span>
@@ -125,7 +127,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                 </div>  
                 <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='produto3.html'">
+            <div class="pro">
                 <img src="img/f3.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca3">adidas</span>
@@ -141,7 +143,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                 </div>  
                 <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='produto4.html'">
+            <div class="pro">
                 <img src="img/f4.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca4">adidas</span>
@@ -225,7 +227,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
     </section>
 
     <section id="banner" class="section-m1">
-       <!-- <h4 id="bannerwdmain">Serviços de Reparo</h4> -->
+        <!--<h4 id="bannerwdmain">Serviços de Reparo</h4> (TBD se vamos mudar ou apagar)-->
         <h2 id="bannerwddesc"><span class="highlight">Até 70% de Desconto</span> - Todas as Camisas e Acessórios</h2>          
         <button id="bannerwdbutton" class="normal">Ver Mais</button>
     </section>
@@ -246,7 +248,7 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4 id="custopro2.1">R$300</h4> <!--preço do item-->
+                    <h4 id="custopro2.1">R$300</h4> <!--preço do item (TBD: tradução incluir dólar?)-->
                 </div>  
                 <a href="#"><i class="far fa-plus-square cart"></i></a> <!--puxar no CSS apenas com a classe "cart"!-->
             </div>
