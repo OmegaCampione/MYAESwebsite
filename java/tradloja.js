@@ -1,4 +1,5 @@
-//M: botão de tradução (Favor NÃO mexer sem perguntar)
+//botão de tradução (Favor NÃO mexer sem perguntar)
+
 var translations = {
     'portuguese': {
       'botao-mudar-idioma': 'Mudar Idioma',
@@ -58,7 +59,7 @@ var translations = {
       'ftcarrinho': 'View Cart',
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
-      'ftcopyright': '© 2023, MYstic Aesthetic'
+      'ftcopyright': '© 2023, MYstic Aesthetic',
   
       //tradução em inglês acima
     },

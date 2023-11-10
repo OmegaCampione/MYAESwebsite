@@ -15,16 +15,16 @@
     height: auto;
     background: #e59ce5;
     border-radius: 60px;
-    overflow: hidden; /*M: Oculta as partes da imagem fora do border-radius (reduzir a area de clique)*/
+    overflow: hidden; /* Oculta as partes da imagem fora do border-radius (reduzir a area de clique)*/
 }
 
 #logo img {
     width: 100%;
     height: auto;
-    display: block; /*M: remove espaço extra fora da img*/
+    display: block; /* remove espaço extra fora da img*/
 }
 
-/*M: Estilizar o botão mudar idioma*/
+/* Estilizar o botão mudar idioma*/
 #botao-mudar-idioma {
     background-color: #e59ce5; /* Cor de fundo do botão */
     color:#000000; /* Cor do texto do botão */
@@ -213,7 +213,7 @@ body{
     width: 180px;
     text-align: center;
     padding: 25px 15px;
-    box-shadow: 5px 5px 14px rgba(70, 62, 221, 0.1); /*M: box shadow TBD (insatisfeito)*/
+    box-shadow: 5px 5px 14px rgba(70, 62, 221, 0.1); /*box shadow TBD (insatisfeito)*/
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
@@ -1180,5 +1180,3 @@ color: #ffffff ;
 }
 
 }
-
-
