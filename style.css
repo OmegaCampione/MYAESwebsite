@@ -1136,7 +1136,7 @@ color: #ffffff ;
         text-align: start;
     }
     #loja-header h2{
-        font-size: 23px;
+        font-size: 20px;
     }
     #prodetails {
         display: flex;
@@ -1177,6 +1177,9 @@ color: #ffffff ;
     #subtotal {
         width: 100%;
         padding: 20px;
+}
+    #textocartheader1{
+        font-size: 25px;
 }
 
 }
