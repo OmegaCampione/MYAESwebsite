@@ -2,9 +2,6 @@
 <html lang="pt-br">
 
 <!--
-OBS: O carrinho é meramente um protótipo, a fim de decisões sobre o visual, Script ainda a ser adicionado-->
-
-<!--
 OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
 
 <head>
@@ -26,9 +23,9 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                 <li><a href="loja.html" id="lojah">Loja</a></li>
                 <li><a href="blog.html" id="blogh">Blog</a></li>
                 <li><a href="sobre.html" id="sobreh">Sobre</a></li>
-                <li><a href="contato.html" id="contatoh">Contato</a></li>
+                <li><a class="active" href="contato.html" id="contatoh">Contato</a></li>
                 <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
-                <li><a class="active" id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
                 <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
             </ul>
         </div>
@@ -38,95 +35,23 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         </div>
     </section>
 
-    <section id="cart-header">
-        <h2 id="textocartheader1">#Finalizando_Compras</h2>
-        <p id="textocartheader2">Confira seus produtos e finalize suas compras</p>
-    </section>
+    <h1>Carrinho de Compras</h1>
 
-    <section id="cart" class="section-p1">
-        <table width="100%">
-            <thead>
-                <tr>
-                    <td id="textocart1">Remover</td> <!--LUGAR QUE DEVE HAVER UM BOTÃO DE REMOVER DO CARRINHO-->
-                    <td id="textocart2">Imagem</td> <!--LUGAR QUE DEVE HAVER A IMAGEM DO ITEM-->
-                    <td id="textocart3">Produto</td> <!--LUGAR QUE DEVE HAVER O ITEM-->
-                    <td id="textocart4">Preço</td> <!--LUGAR QUE DEVE HAVER O PREÇO-->
-                    <td id="textocart5">Quantidade</td> <!--LUGAR QUE DEVE HAVER A QUANTIDADE DE ITENS-->
-                    <td id="textocart6">Subtotal</td> <!--LUGAR QUE DEVE HAVER O VALOR TOTAL DE UM ITEM-->
-                </tr>
-            </thead>
-            <tbody>
-                <!--LUGAR QUE OS ITENS DEVEM SER MOSTRADOS-->
-            </tbody>
-        </table>
-    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Imagem</th>
+                <th>Tamanho</th>
+                <th>Quantidade</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody id="cartItems"></tbody>
+    </table>
 
-    <section id="cart-add" class="section-p1">
-        <div id="coupon">
-            <h3 id="textocupom">Aplicar Cupom</h3>
-            <div>
-                <input type="text" id="placeholdercupom" placeholder="Insira seu cupom">
-                <button class="normal" id="textobutcupom2">Aplicar</button>
-            </div>
-        </div>
-
-        <div id="subtotal">
-            <h3 id="textocarrinho1">Valor Total</h3>
-            <table>
-                <tr>
-                    <td id="textocarrinho2">Valor Subtotal</td>
-                    <td><!--LUGAR QUE O VALOR TOTAL DOS ITENS DEVE SER MOSTRADO--> </td>
-                </tr>
-                <tr>
-                    <td id="textocarrinho3">Frete</td>
-                    <td id="textocarrinho4">Grátis</td>
-                </tr>
-                <tr>
-                    <td><strong>Total</strong></td>
-                    <td><strong><!--LUGAR QUE O VALOR TOTAL DOS ITENS DEVE SER MOSTRADO--></strong></td>
-                </tr>
-            </table>
-            <button class="normal" id="textocarrinho5">Prosseguir para o pagamento</button>
-        </div>
-    </section>
-
-    <footer class="section-p1">
-        <div class="cor">
-            <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
-            <h4 id="ftcont">Contato</h4>
-            <p><strong id="ftendere">Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
-            <p><strong id="ftfone">Telefone:</strong> +55 (81)000000000</p>
-            <div class="redes">
-                <h4 id="ftsiga">Siga-nos!</h4>
-                <div class="icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-        <div class="cor">
-            <h4 id="ftsobre">Sobre</h4>
-            <a id="ftsobrenos" href="#">Sobre Nós</a>
-            <a id="ftpolit" href="#">Política de Privacidade</a>
-            <a id="fttermos" href="#">Termos e Condições</a>
-            <a id="ftcontate" href="#">Contate-nos</a>
-        </div>
-        <div class="cor">
-                <h4 id="ftconta">Minha Conta</h4>
-                <a id="ftlogin" href="#">Login</a>
-                <a id="ftcarrinho" href="#">Ver Carrinho</a>
-                <a id="ftdesejos" href="#">Lista de Desejos</a>
-                <a id="ftajuda" href="#">Ajuda</a>
-        </div>
-        <div id="copyright">
-            <p id="ftcopyright">© 2023, MYstic Aesthetic</p>
-        </div>
-    </footer>
-
-    <script src="java/script.js"></script>
-    <script src="java/tradcart.js"></script>
+    <script src="java/carrinho.js"></script>
 </body>
-
-</head>
+</html>

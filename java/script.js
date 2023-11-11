@@ -79,3 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   });
 });
+
+//carrinho load
+
