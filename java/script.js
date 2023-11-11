@@ -33,28 +33,49 @@ smallimg[2].onclick = function(){
 smallimg[3].onclick = function(){
   MainImg.src = smallimg[3].src;
 }
+//carrinho shenanigans
 
-//carrinho shenanigans:
+document.addEventListener('DOMContentLoaded', function () {
+  // Seletor do botão "Adicionar ao carrinho"
+  var addToCartBtn = document.getElementById('addToCartBtn');
 
-document.getElementById('adicionarAoCarrinhoBtn').addEventListener('click', function () {
-  // Obter os dados do produto
-  var produto = {
-      imagem: document.getElementById('MainImg').src,
-      nome: document.getElementById('textoprod1').textContent,
-      descricao: document.getElementById('textoprod2').textContent,
-      preco: document.getElementById('textoloja3').textContent,
-      tamanho: document.getElementById('tamanhoSelect').value,
-      quantidade: document.getElementById('quantidadeInput').value
-  };
+  // Adiciona um ouvinte de evento de clique ao botão
+  addToCartBtn.addEventListener('click', function () {
+      // Obtém os dados do produto
+      var productName = document.getElementById('textoprod1').innerText;
+      var productDescription = document.getElementById('textoprod2').innerText;
+      var productPrice = document.getElementById('textoloja3').innerText;
+      var productImage = document.getElementById('MainImg').getAttribute('src');
+      var selectedSize = document.querySelector('select').value;
+      var quantity = document.querySelector('input[type="number"]').value;
 
-  // Obter o carrinho atual do localStorage
-  var carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+      // Cria um objeto contendo os dados do produto
+      var productData = {
+          name: productName,
+          description: productDescription,
+          price: productPrice,
+          image: productImage,
+          size: selectedSize,
+          quantity: quantity
+      };
 
-  // Adicionar o produto ao carrinho
-  carrinho.push(produto);
+      // Verifica se o localStorage é suportado pelo navegador
+      if (typeof(Storage) !== "undefined") {
+          // Recupera os dados existentes do carrinho do localStorage, se houver
+          var cartItems = JSON.parse(localStorage.getItem('cart')) || [];
 
-  // Salvar o carrinho de volta no localStorage
-  localStorage.setItem('carrinho', JSON.stringify(carrinho));
+          // Adiciona os dados do produto ao carrinho
+          cartItems.push(productData);
 
-  alert('Produto adicionado ao carrinho!');
+          // Atualiza o carrinho no localStorage
+          localStorage.setItem('cart', JSON.stringify(cartItems));
+
+          // Alerta o usuário que o produto foi adicionado ao carrinho (você pode modificar isso conforme necessário)
+          alert('Produto adicionado ao carrinho');
+
+      } else {
+          // Caso o localStorage não seja suportado
+          alert('Desculpe, seu navegador não suporta o recurso de carrinho de compras.');
+      }
+  });
 });
