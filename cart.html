@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<!--
-OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
-
+<html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">  <!--ref CSS-->
     <meta charset="UTF-8">
@@ -11,47 +7,77 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="titulomain">MY Aes</title>
     <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <section id="header">
+            <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
     
-<body>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html" id="inicioh">Início</a></li>
+                    <li><a href="loja.html" id="lojah">Loja</a></li>
+                    <li><a href="blog.html" id="blogh">Blog</a></li>
+                    <li><a href="sobre.html" id="sobreh">Sobre</a></li>
+                    <li><a class="active" href="contato.html" id="contatoh">Contato</a></li>
+                    <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
+                    <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                    <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
 
-    <section id="header">
-        <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
-
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html" id="inicioh">Início</a></li>
-                <li><a href="loja.html" id="lojah">Loja</a></li>
-                <li><a href="blog.html" id="blogh">Blog</a></li>
-                <li><a href="sobre.html" id="sobreh">Sobre</a></li>
-                <li><a class="active" href="contato.html" id="contatoh">Contato</a></li>
-                <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
-                <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
-                <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
-            </ul>
+        <h1>Carrinho de Compras</h1>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Imagem</th>
+                    <th>Tamanho</th>
+                    <th>Quantidade</th>
+                    <th>Subtotal</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Dentro do loop que exibe os itens na tabela de produtos -->
+                <tr>
+                    <td>${item.name}</td>
+                    <td>${item.description}</td>
+                    <td>${item.price}</td>
+                    <td><img src="${item.image}" alt="${item.name}" style="max-width: 50px;"></td>
+                    <td>${item.size}</td>
+                    <td>${item.quantity}</td>
+                    <td>R$ ${item.subtotal.toFixed(2)}</td>
+                    <td><span class="remove-btn" data-index="${index}">Remover</span></td>
+                </tr>
+                <!-- Fim do loop -->
+            </tbody>
+        </table>
+    
+        <div id="subtotal">
+            <h3 id="textocarrinho1">Valor Total</h3>
+            <table>
+                <tr>
+                    <td id="textocarrinho2">Valor Subtotal</td>
+                    <td id="textocarrinhoSubtotal">R$ 0.00</td>
+                </tr>
+                <tr>
+                    <td id="textocarrinho3">Frete</td>
+                    <td id="textocarrinho4">Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="textocarrinho5">R$ 0.00</td>
+                </tr>
+            </table>
         </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
-    </section>
-
-    <h1>Carrinho de Compras</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Descrição</th>
-                <th>Preço</th>
-                <th>Imagem</th>
-                <th>Tamanho</th>
-                <th>Quantidade</th>
-                <th>Ação</th>
-            </tr>
-        </thead>
-        <tbody id="cartItems"></tbody>
-    </table>
-
-    <script src="java/carrinho.js"></script>
-</body>
-</html>
+    
+        <script src="java/carrinho.js"></script>
+    </body>
