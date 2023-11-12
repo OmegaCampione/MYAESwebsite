@@ -43,22 +43,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
         subtotalElement.innerText = `R$ ${subtotal.toFixed(2)}`;
         totalElement.innerText = `R$ ${subtotal.toFixed(2)}`; // Atualiza o total da tabela de carrinho
+
+        // Adiciona ouvinte de evento ao contêiner pai (delegação de eventos)
+        cartTableBody.addEventListener('click', function (event) {
+            if (event.target.classList.contains('remove-btn')) {
+                var itemIndex = event.target.getAttribute('data-index');
+                removeItemFromCart(itemIndex);
+            }
+        });
     }
 
     function removeItemFromCart(index) {
         cartItems.splice(index, 1);
+
+        // Atualiza o carrinho no localStorage
         localStorage.setItem('cart', JSON.stringify(cartItems));
-        renderCartItems(); // Re-renderiza a tabela após a remoção
+
+        if (cartItems.length === 0) {
+            // Se o carrinho ficar vazio, remova as informações da tabela e atualize o subtotal
+            cartTableBody.innerHTML = '';
+            subtotalElement.innerText = 'R$ 0.00';
+            totalElement.innerText = 'R$ 0.00';
+        } else {
+            renderCartItems(); // Re-renderiza a tabela após a remoção
+        }
     }
 
     renderCartItems();
-
-    // Adiciona ouvinte de evento aos botões de remoção
-    var removeButtons = document.querySelectorAll('.remove-btn');
-    removeButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-            var itemIndex = this.getAttribute('data-index');
-            removeItemFromCart(itemIndex);
-        });
-    });
 });
