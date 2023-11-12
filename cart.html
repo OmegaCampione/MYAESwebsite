@@ -18,9 +18,9 @@
                     <li><a href="loja.html" id="lojah">Loja</a></li>
                     <li><a href="blog.html" id="blogh">Blog</a></li>
                     <li><a href="sobre.html" id="sobreh">Sobre</a></li>
-                    <li><a class="active" href="contato.html" id="contatoh">Contato</a></li>
+                    <li><a href="contato.html" id="contatoh">Contato</a></li>
                     <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
-                    <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                    <li><a id="carrinho-mb" class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
                     <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
                 </ul>
             </div>
@@ -30,21 +30,25 @@
             </div>
         </section>
 
-        <h1>Carrinho de Compras</h1>
+        <section id="cart-header">
+            <h1>Carrinho de Compras</h1>
+        </section>
     
-        <table>
-            <thead>
-                <tr>
-                    <th>Produto</th>
-                    <th>Descrição</th>
-                    <th>Preço</th>
-                    <th>Imagem</th>
-                    <th>Tamanho</th>
-                    <th>Quantidade</th>
-                    <th>Subtotal</th>
-                    <th>Ação</th>
-                </tr>
-            </thead>
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td id="textocart1">Produto</td>
+                        <td id="textocart2">Descrição</td>
+                        <td id="textocart3">Preço</td>
+                        <td id="textocart4">Imagem</td>
+                        <td id="textocart5">Tamanho</td>
+                        <td id="textocart6">Quantidade</td>
+                        <td id="textocart7">Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+        
             <tbody id="cartItems">
                 <!-- Dentro do loop que exibe os itens na tabela de produtos -->
                 <tr>
@@ -60,6 +64,16 @@
                 <!-- Fim do loop -->
             </tbody>
         </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3 id="textocupom">Aplicar Cupom</h3>
+            <div>
+                <input type="text" id="placeholdercupom" placeholder="Insira seu cupom">
+                <button class="normal" id="textobutcupom2">Aplicar</button>
+            </div>
+        </div>
     
         <div id="subtotal">
             <h3 id="textocarrinho1">Valor Total</h3>
@@ -77,10 +91,24 @@
                     <td id="textocarrinho5">R$ 0.00</td>
                 </tr>
             </table>
+            <button class="normal" id="textocarrinho5">Prosseguir para o pagamento</button>
         </div>
-    
-        <script src="java/carrinho.js"></script>
-        <footer class="section-p1">
+        </section>
+
+            <script src="java/carrinho.js"></script>
+
+            <section id="noticias" class="section-p1 section-m1">
+                <div class="textonot">
+                    <h4 id="notmain">Se Inscreva para Receber Novidades</h4>
+                    <p id="notdesc">Receba atualizações por email sobre nossos mais novos produtos e <span class="highlight">ofertas especiais</span></p>
+                </div>
+                <div class="form">
+                    <input type="text" id="emailInput" placeholder="Seu email">
+                    <button id= "notbutton" class="normal">Inscreva-se</button>
+                </div>
+            </section>
+            
+                <footer class="section-p1">
             <div class="cor">
                 <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
                 <h4 id="ftcont">Contato</h4>
@@ -113,8 +141,8 @@
             <div id="copyright">
                 <p id="ftcopyright">© 2023, MYstic Aesthetic</p>
             </div>
-        </footer>
-    
+                </footer>
+        
         <script src="java/script.js"></script>
         <script src="java/tradcontat.js"></script>
     </body>

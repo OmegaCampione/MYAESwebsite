@@ -833,7 +833,7 @@ color: #ffffff ;
     padding: 14px;
 }
 
-#cart-header h2{
+#cart-header h1{
     color: white;
 }
 #cart-header p{
@@ -857,17 +857,17 @@ color: #ffffff ;
 }
 
 #cart table td:nth-child(1){
-    width: 100px;
-    text-align: center;
-}
-
-#cart table td:nth-child(2){
     width: 150px;
     text-align: center;
 }
 
+#cart table td:nth-child(2){
+    width: 200px;
+    text-align: center;
+}
+
 #cart table td:nth-child(3){
-    width: 250px;
+    width: 100px;
     text-align: center;
 }
 
@@ -881,6 +881,7 @@ color: #ffffff ;
 #cart table td:nth-child(5) input{
     width: 70px;
     padding: 10px 5px 10px 15px;
+    text-align: center;
 }
 
 #cart table thead{
@@ -893,11 +894,14 @@ color: #ffffff ;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
-    padding: 18px 0;
+    padding: 15px 0;
+    text-align: center;
+    width: 150px;
 }
 
 #cart table tbody tr td{
-    padding-top: 15px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 #cart table tbody td{
@@ -1076,9 +1080,18 @@ color: #ffffff ;
     #form-details {
         padding: 20px;
 }
+h1 {
+    text-align: center;
+}
     #form-details form {
-        width: 48%;
-}    
+        width: 48%;     
+}
+    #subtotal {
+        width: 58%;
+        }
+    #subtotal h3{
+        font-size: 20px;
+        }
 }
 
 @media (max-width: 477px) {
@@ -1092,7 +1105,8 @@ color: #ffffff ;
         padding: 10px 30px;
     }
     h1{
-        font-size: 38px;
+        font-size: 29px;
+        text-align: center;
     }
     h2 {
         font-size: 32px;
@@ -1175,13 +1189,10 @@ color: #ffffff ;
         width: 100%;
 }
     #subtotal {
-        width: 100%;
+        font-size: 20px;
+        width: 90%;
         padding: 20px;
 }
-    #textocartheader1{
-        font-size: 25px;
-}
-
 }
 
 table {
