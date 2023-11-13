@@ -16,6 +16,24 @@ if (fechar) {
   })
 };
 
+// Função de Filtros na pág Loja
+
+function filterProducts() {
+  var categoriaSelecionada = document.getElementById('filtroProdutos').value;
+  var produtos = document.querySelectorAll('.pro');
+
+  produtos.forEach(function(produto) {
+      if (categoriaSelecionada === 'todos' || produto.classList.contains(categoriaSelecionada)) {
+          produto.style.display = 'block';
+      } else {
+          produto.style.display = 'none';
+      }
+  });
+}
+
+   // Chamar a função para exibir todos os produtos inicialmente
+   filterProducts();
+
 // Botão de alterar imagens na página do produto
 
 var MainImg = document.getElementById("MainImg");
