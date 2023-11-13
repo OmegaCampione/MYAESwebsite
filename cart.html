@@ -71,8 +71,10 @@
             <h3 id="textocupom">Aplicar Cupom</h3>
             <div>
                 <input type="text" id="placeholdercupom" placeholder="Insira seu cupom">
-                <button class="normal" id="textobutcupom2">Aplicar</button>
+                <button class="normal" id="textobutcupom2" onclick="applyCoupon()">Aplicar</button>
             </div>
+            <div id="discountWarning" class="warning fade-out"></div>
+            <div id="couponWarning" class="warning fade-out"></div>
         </div>
     
         <div id="subtotal">
@@ -85,6 +87,10 @@
                 <tr>
                     <td id="textocarrinho3">Frete</td>
                     <td id="textocarrinho4">Grátis</td>
+                </tr>
+                <tr>
+                    <td id="textocarrinho6">Desconto</td>
+                    <td id="discountAmount">- R$ 0.00</td>
                 </tr>
                 <tr>
                     <td><strong>Total</strong></td>
