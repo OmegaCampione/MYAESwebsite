@@ -16,6 +16,24 @@ if (fechar) {
   })
 };
 
+// Função de Filtros na pág Loja
+
+function filterProducts() {
+  var categoriaSelecionada = document.getElementById('filtroProdutos').value;
+  var produtos = document.querySelectorAll('.pro');
+
+  produtos.forEach(function(produto) {
+      if (categoriaSelecionada === 'todos' || produto.classList.contains(categoriaSelecionada)) {
+          produto.style.display = 'block';
+      } else {
+          produto.style.display = 'none';
+      }
+  });
+}
+
+   // Chamar a função para exibir todos os produtos inicialmente
+   filterProducts();
+
 // Botão de alterar imagens na página do produto
 
 var MainImg = document.getElementById("MainImg");
@@ -33,6 +51,29 @@ smallimg[2].onclick = function(){
 smallimg[3].onclick = function(){
   MainImg.src = smallimg[3].src;
 }
+
+//não aceitar qtd negativa
+
+function validarNumero(input) {
+  // Obtém o valor atual do campo de entrada
+  var valor = input.value;
+
+  // Converte o valor para um número
+  var numero = parseFloat(valor);
+
+  // Verifica se o número é negativo, zero ou nulo
+  if (isNaN(numero) || numero < 0) {
+    // Se for zero, negativo ou nulo, define o valor como 1
+    input.value = 1;
+}
+  // Verifica se o número é muito alto
+  if (numero > 20) {
+   //Se for maior que 20, define o valor como 20
+      input.value = 20;
+  }
+
+}
+
 //carrinho shenanigans
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -76,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
           // Atualiza o carrinho no localStorage
           localStorage.setItem('cart', JSON.stringify(cartItems));
 
-          // Alerta o usuário que o produto foi adicionado ao carrinho (você pode modificar isso conforme necessário)
+          // Alerta o usuário que o produto foi adicionado ao carrinho
           alert('Produto adicionado ao carrinho');
       } else {
           // Caso o localStorage não seja suportado

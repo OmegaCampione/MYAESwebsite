@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--
+OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING COM CSS-->
+
+<!--Apenas os 4 primeiros produtos são atualmente clicáveis-->
+
+<head>
+    <link rel="stylesheet" href="style.css"> <!--ref CSS, evitar mudar posição-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulomain">MY Aes</title>
+    <script src="https://kit.fontawesome.com/c6b7efc87f.js" crossorigin="anonymous"></script> <!--linha unica de Java pra setup do fontawesome (não consegui fazer referenciado pelo script.js)-->
+    
+<body>
+
+    <section id="header">
+        <a id="logo" href="#"><img src="img/MY.png" class=logo alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" id="inicioh">Início</a></li>
+                <li><a href="loja.html" id="lojah">Loja</a></li>
+                <li><a href="blog.html" id="blogh">Blog</a></li>
+                <li><a class="active" href="sobre.html" id="sobreh">Sobre</a></li>
+                <li><a href="contato.html" id="contatoh">Contato</a></li>
+                <li><button id="botao-mudar-idioma">Mudar Idioma</button></li> <!--botao mudar idioma-->
+                <li><a id="carrinho-mb" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!--carrinho-->
+                <a href="#" id="fechar"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="loja-header" class="about-header">
+
+        <h2 id="aboutheader1">#NosConheça</h2>    
+
+        <p id="aboutheader2">Lorem ipsum dolor sit amet, consectetur</p>
+
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="img/a6.jpg" alt="">
+        <div>
+            <h2 id="tradabout">Quem Somos Nós?</h2>
+            <p id="tradabout2">Bem-vindo à nossa seção "Quem Somos", onde a tradição encontra a elegância. Somos mais do que uma loja de moda clássica online; somos artesãos do estilo atemporal. Com um compromisso inabalável com a qualidade e a sofisticação, cada peça em nosso catálogo reflete a paixão pela moda clássica reinventada. Fundada por entusiastas de vestimentas atemporais, nossa equipe une tradição e inovação para oferecer um guarda-roupa que transcende tendências passageiras. Explore nossa história, mergulhe na arte da moda clássica e descubra a dedicação que molda cada costura. Junte-se a nós em uma jornada onde a moda é mais do que um estilo - é uma declaração de atemporalidade.</p>
+            
+            <abbr title="">Crie imagens impressionantes com o controle que desejar, graças a uma escolha de modos básicos e criativos</abbr>
+
+            <br><br>
+
+            <marquee loop="-1" scrollamount="5" width="100%">Crie imagens impressionantes com o controle que desejar, graças a uma escolha de modos básicos e criativos</marquee>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="cor">
+            <img id="logo-ft" class="logo-footer" src="img/MY.png" alt="logo">
+            <h4 id="ftcont">Contato</h4>
+            <p><strong id="ftendere">Endereço:</strong> Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</p>
+            <p><strong id="ftfone">Telefone:</strong> +55 (81)000000000</p>
+            <div class="redes">
+                <h4 id="ftsiga">Siga-nos!</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cor">
+            <h4 id="ftsobre">Sobre</h4>
+            <a id="ftsobrenos" href="#">Sobre Nós</a>
+            <a id="ftpolit" href="#">Política de Privacidade</a>
+            <a id="fttermos" href="#">Termos e Condições</a>
+            <a id="ftcontate" href="#">Contate-nos</a>
+        </div>
+        <div class="cor">
+                <h4 id="ftconta">Minha Conta</h4>
+                <a id="ftlogin" href="#">Login</a>
+                <a id="ftcarrinho" href="#">Ver Carrinho</a>
+                <a id="ftdesejos" href="#">Lista de Desejos</a>
+                <a id="ftajuda" href="#">Ajuda</a>
+        </div>
+        <div id="copyright">
+            <p id="ftcopyright">© 2023, MYstic Aesthetic</p>
+        </div>
+    </footer>
+
+    <script src="java/script.js"></script>
+    <script src="java/tradsobre.js"></script>
+</body>
+
+</head>

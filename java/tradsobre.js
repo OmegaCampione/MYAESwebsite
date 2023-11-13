@@ -8,17 +8,6 @@ var translations = {
       'blogh' : 'Blog',
       'sobreh': 'Sobre',
       'contatoh' : 'Contato',
-      'textocartheader1': '#Finalizando_Compras',
-      'textocartheader2': 'Confira seus produtos e finalize suas compras',
-      'textocart1': "Remover",
-      'textocart2': "Imagem",
-      'textocart3': "Produto",
-      'textocart4': "Preço",
-      'textocart5': "Quantidade",
-      'textocart6': "Subtotal",
-      'textocupom': "Aplicar Cupom",
-      'placeholdercupom': "Insira seu cupom",
-      'textocupom2': "Aplicar",
       'ftcont': 'Contato',
       'ftendere': 'Endereço:',
       'ftfone': 'Telefone:',
@@ -35,7 +24,6 @@ var translations = {
       'ftajuda': 'Ajuda',
       'ftcopyright': '© 2023, MYstic Aesthetic',
 
-      
 
       //tradução em português acima
     },
@@ -46,17 +34,6 @@ var translations = {
       'blogh': 'Blog', //duh
       'sobreh': 'About',
       'contatoh' : 'Contact',
-      'textocartheader1': '#Checking_Out',
-      'textocartheader2': 'Review your items and complete your purchase.',
-      'textocart1': "Remove",
-      'textocart2': "Image",
-      'textocart3': "Product",
-      'textocart4': "Price",
-      'textocart5': "Quantity",
-      'textocart6': "Subtotal",
-      'textocupom': "Apply Coupon",
-      'placeholdercupom': "Enter your coupon",
-      'textocupom2': "Apply",
       'ftcont': 'Contact',
       'ftendere': 'Address:',
       'ftfone': 'Phone:',
@@ -73,6 +50,7 @@ var translations = {
       'ftajuda': 'Help',
       'ftcopyright': '© 2023, MYstic Aesthetic',
 
+      
 
       //tradução em inglês acima
     },
@@ -94,17 +72,6 @@ var translations = {
     document.getElementById('blogh').textContent = translations[currentLanguage]['blogh'];
     document.getElementById('sobreh').textContent = translations[currentLanguage]['sobreh'];
     document.getElementById('contatoh').textContent = translations[currentLanguage]['contatoh'];
-    document.getElementById('textocartheader1').textContent = translations[currentLanguage]['textocartheader1'];
-    document.getElementById('textocartheader2').textContent = translations[currentLanguage]['textocartheader2'];
-    document.getElementById('textocart1').textContent = translations[currentLanguage]['textocart1'];
-    document.getElementById('textocart2').textContent = translations[currentLanguage]['textocart2'];
-    document.getElementById('textocart3').textContent = translations[currentLanguage]['textocart3'];
-    document.getElementById('textocart4').textContent = translations[currentLanguage]['textocart4'];
-    document.getElementById('textocart5').textContent = translations[currentLanguage]['textocart5'];
-    document.getElementById('textocart6').textContent = translations[currentLanguage]['textocart6'];
-    var placeholdernome = document.getElementById('placeholdercupom');
-    placeholdernome.placeholder = translations[currentLanguage]['placeholdercupom'];
-    document.getElementById('textocupom').textContent = translations[currentLanguage]['textocupom'];
     document.getElementById('ftcont').textContent = translations[currentLanguage]['ftcont'];
     document.getElementById('ftendere').textContent = translations[currentLanguage]['ftendere'];
     document.getElementById('ftfone').textContent = translations[currentLanguage]['ftfone'];
@@ -119,6 +86,8 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+    
+
   }
   
   document.getElementById('botao-mudar-idioma').addEventListener('click', changeLanguage);

@@ -42,9 +42,17 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         <p id="textoloja2">Economize mais com cupons & até 70% de desconto!</p>
     </section>
 
+    <label for="filtroProdutos">Filtrar por:</label>
+    <select id="filtroProdutos" onchange="filterProducts()">
+        <option value="todos">Todos</option>
+        <option value="camisa">Camisas</option>
+        <option value="calca">Calças</option>
+        <!-- botar mais -->
+    </select>
+
     <section id="produto-1"  class="section-p1">
         <div class="pro-container"> <!--div dos produtos-->
-            <div class="pro" onclick="window.location.href='produto1.html'">
+            <div class="pro camisa" onclick="window.location.href='produto1.html'">
                 <img src="img/f1.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca1">adidas</span> <!--marca do item-->
@@ -58,9 +66,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro1">R$300</h4> <!--preço do item (TBD: tradução incluir dólar?)-->
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a> <!--puxar no CSS apenas com a classe "cart"!-->
             </div>
-            <div class="pro" onclick="window.location.href='produto2.html'">
+            <div class="pro camisa" onclick="window.location.href='produto2.html'">
                 <img src="img/f2.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2">adidas</span>
@@ -74,9 +81,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='produto3.html'">
+            <div class="pro camisa" onclick="window.location.href='produto3.html'">
                 <img src="img/f3.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca3">adidas</span>
@@ -90,9 +96,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro3">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='produto4.html'">
+            <div class="pro camisa" onclick="window.location.href='produto4.html'">
                 <img src="img/f4.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca4">adidas</span>
@@ -106,9 +111,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro4">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/f5.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca5">adidas</span>
@@ -122,9 +126,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro5">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/f6.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca6">adidas</span>
@@ -138,9 +141,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro6">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro calca">
                 <img src="img/f7.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca7">adidas</span>
@@ -154,9 +156,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro7">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/f8.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca8">adidas</span>
@@ -170,11 +171,10 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro8">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
 
         <div class="pro-container"> <!--div dos produtos-->
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n1.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.1">adidas</span> <!--marca do item-->
@@ -188,9 +188,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.1">R$300</h4> <!--preço do item-->
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a> <!--puxar no CSS apenas com a classe "cart"!-->
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n2.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.2">adidas</span>
@@ -204,9 +203,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.2">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n3.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.3">adidas</span>
@@ -220,9 +218,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.3">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n4.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.4">adidas</span>
@@ -236,9 +233,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.4">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n5.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.5">adidas</span>
@@ -252,9 +248,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro5">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro calca">
                 <img src="img/n6.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.6">adidas</span>
@@ -268,9 +263,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.6">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n7.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.7">adidas</span>
@@ -284,9 +278,8 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.7">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro camisa">
                 <img src="img/n8.jpg" alt="produto1">
                 <div class="desc">
                     <span id="marca2.8">adidas</span>
@@ -300,7 +293,6 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                     </div>
                     <h4 id="custopro2.8">R$300</h4>
                 </div>  
-                <a href="#"><i class="far fa-plus-square cart"></i></a>
             </div>
         </div>
     </section>
