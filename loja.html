@@ -42,14 +42,15 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
         <p id="textoloja2">Economize mais com cupons & até 70% de desconto!</p>
     </section>
 
-    <label for="filtroProdutos">Filtrar por:</label>
+    <div id="FiltroStyle">
+    <label for="filtroProdutos" id="filterby">Filtrar por:</label>
     <select id="filtroProdutos" onchange="filterProducts()">
-        <option value="todos">Todos</option>
-        <option value="camisa">Camisas</option>
-        <option value="calca">Calças</option>
+        <option value="todos" id="filtertodos">Todos</option>
+        <option value="camisa" id="filtercamisa">Camisas</option>
+        <option value="calca" id="filtercalca">Calças</option>
         <!-- botar mais -->
     </select>
-
+    </div>
     <section id="produto-1"  class="section-p1">
         <div class="pro-container"> <!--div dos produtos-->
             <div class="pro camisa" onclick="window.location.href='produto1.html'">
@@ -173,7 +174,6 @@ OBS: SEMPRE DAR ID="nome" AOS ITENS PARA FACILITAR A TRADUÇÃO e/ou STYLYING CO
                 </div>  
             </div>
 
-        <div class="pro-container"> <!--div dos produtos-->
             <div class="pro camisa" onclick="window.location.href='produto9.html'">
                 <img src="img/n1.jpg" alt="produto1">
                 <div class="desc">

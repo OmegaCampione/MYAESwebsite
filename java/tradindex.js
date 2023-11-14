@@ -1,5 +1,21 @@
 //botão de tradução (Favor NÃO mexer sem perguntar)
 
+var botaoMain = document.getElementById("botaomain");
+
+botaoMain.addEventListener("click", function() {
+    // Redirecione para a página loja.html
+    window.location.href = "loja.html";
+  });
+
+  var bannerwdbutton = document.getElementById("bannerwdbutton");
+
+  bannerwdbutton.addEventListener("click", function() {
+    // Redirecione para a página loja.html
+    window.location.href = "loja.html";
+  });
+
+  
+
 var translations = {
     'portuguese': {
       'botao-mudar-idioma': 'Mudar Idioma',
@@ -11,7 +27,7 @@ var translations = {
       'textomain1': 'Ofertas do balacobaco',
       'textomain2': 'Barganhas de alto valor',
       'textomain3': 'Em todos os produtos',
-      'textomain4': 'Economize mais com cupons & até 70% de desconto!',
+      'textomain4': 'Economize mais com o cupom "EXPOTECH" para 20% de desconto',
       'botaomain': 'Compre Agora',
       'textofeat1' : 'Frete Grátis',
       'textofeat2' : 'Pedido On-line',
@@ -72,7 +88,7 @@ var translations = {
       'textomain1': 'Balacobaco\'s offers',
       'textomain2': 'High value bargains',
       'textomain3': 'On every product',
-      'textomain4': 'Save more with coupons & up to 70% Off!',
+      'textomain4': 'Save more with the "EXPOTECH" Coupon for 20% Off',
       'botaomain' : 'Buy Now',
       'textofeat1' : 'Free Shipping',
       'textofeat2' : 'Online Order',

@@ -9,7 +9,10 @@ var translations = {
       'sobreh': 'Sobre',
       'contatoh' : 'Contato',
       'textoloja1': '#PRODUTOSDOBALACOBACO',
-      'textoloja2': 'Economize mais com cupons & até 70% de desconto!',
+      'filterby' : 'Filtrar por:',
+      'filtertodos' : 'Todos',
+      'filtercamisa' : 'Camisas',
+      'filtercalca' : 'Calças',
       'notmain' : 'Se Inscreva para Receber Novidades',
       'notdesc': 'Receba atualizações por email sobre nossos mais novos produtos e <span class="highlight">ofertas especiais</span>',
       'notbutton' : 'Inscreva-se',
@@ -40,7 +43,10 @@ var translations = {
       'sobreh': 'About',
       'contatoh' : 'Contact',
       'textoloja1': '#BALACOBACO\'SPRODUCTS',
-      'textoloja2': 'Save more with coupons & up to 70% Off!',
+      'filterby' : 'Filter by:',
+      'filtertodos' : 'All',
+      'filtercamisa' : 'Shirts',
+      'filtercalca' : 'Pants',
       'notmain' : 'Sign Up For Newsletters',
       'notdesc': 'Receive email updates about our latest products and <span class="highlight">special offers</span>',
       'notbutton' : 'Subscribe',
@@ -103,6 +109,10 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+    document.getElementById('filterby').textContent = translations[currentLanguage]['filterby'];
+    document.getElementById('filtertodos').textContent = translations[currentLanguage]['filtertodos'];
+    document.getElementById('filtercamisa').textContent = translations[currentLanguage]['filtercamisa'];
+    document.getElementById('filtercalca').textContent = translations[currentLanguage]['filtercalca'];
   }
   
   document.getElementById('botao-mudar-idioma').addEventListener('click', changeLanguage);

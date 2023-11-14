@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function calculateSubtotal(item) {
         var quantity = parseInt(item.quantity);
         var priceWithoutCurrency = item.price.replace('R$', '').replace(',', '.');
-    
+
         if (!isNaN(priceWithoutCurrency) && !isNaN(quantity)) {
             return parseFloat(priceWithoutCurrency) * quantity;
         } else {
@@ -19,15 +19,25 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+    // Função para adicionar evento de remoção
+    function addRemoveEventListeners() {
+        var removeButtons = document.querySelectorAll('.remove-btn');
+        removeButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var itemIndex = this.getAttribute('data-index');
+                removeItemFromCart(itemIndex);
+            });
+        });
+    }
+
     // Função para renderizar os itens no carrinho
     function renderCartItems() {
         cartTableBody.innerHTML = '';
-    
         var subtotal = 0;
-    
+
         cartItems.forEach(function (item, index) {
             item.subtotal = calculateSubtotal(item);
-    
+
             var row = document.createElement('tr');
             row.innerHTML = `
                 <td>${item.name}</td>
@@ -40,22 +50,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 <td><span class="remove-btn" data-index="${index}">Remover</span></td>
             `;
             cartTableBody.appendChild(row);
-    
+
             subtotal += item.subtotal;
         });
-    
-           // Calcula o desconto aplicado
-    var discountAmount = subtotal * appliedDiscount;
 
-    // Exibe o desconto na tabela como negativo
-    document.getElementById('discountAmount').innerText = `- R$ ${Math.abs(discountAmount).toFixed(2)}`;
+        // Calcula o desconto aplicado
+        var discountAmount = subtotal * appliedDiscount;
 
-    // Aplica o desconto
-    var totalWithDiscount = subtotal - discountAmount;
-    totalElement.innerText = `R$ ${totalWithDiscount.toFixed(2)}`;
+        // Exibe o desconto na tabela como negativo
+        document.getElementById('discountAmount').innerText = `- R$ ${Math.abs(discountAmount).toFixed(2)}`;
 
-    subtotalElement.innerText = `R$ ${subtotal.toFixed(2)}`;
-}
+        // Aplica o desconto
+        var totalWithDiscount = subtotal - discountAmount;
+        totalElement.innerText = `R$ ${totalWithDiscount.toFixed(2)}`;
+
+        subtotalElement.innerText = `R$ ${subtotal.toFixed(2)}`;
+
+        // Adiciona eventos de remoção após re-renderizar os itens
+        addRemoveEventListeners();
+    }
 
     // Função para remover um item do carrinho
     function removeItemFromCart(index) {
@@ -66,15 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Renderiza os itens inicialmente
     renderCartItems();
-
-    // Add evento aos botões de remoção
-    var removeButtons = document.querySelectorAll('.remove-btn');
-    removeButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-            var itemIndex = this.getAttribute('data-index');
-            removeItemFromCart(itemIndex);
-        });
-    });
 
     // Cupom
     var appliedDiscount = 0;
@@ -116,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var couponInput = document.getElementById('placeholdercupom');
         var couponCode = couponInput.value;
         var couponWarning = document.getElementById('couponWarning');
-    
+
         // Lógica para verificar e aplicar o desconto com base no código do cupom
         switch (couponCode) {
             case 'FAVIP':
@@ -145,10 +149,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 break;
             default:
                 couponWarning.innerText = "Cupom inválido.";
-    
+
                 // Ajusta a opacidade para exibir o aviso
                 couponWarning.style.opacity = 1;
-    
+
                 // Limpa o aviso após 3 segundos
                 setTimeout(function () {
                     couponWarning.innerText = '';
@@ -156,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, 3000);
                 break;
         }
-    
+
         // Limpa o campo de cupom após verificar os cupons
         couponInput.value = '';
     }

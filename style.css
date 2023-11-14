@@ -764,6 +764,45 @@ color: #ffffff ;
     padding-left: 40px;
 }
 
+#FiltroStyle {  
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#FiltroStyle label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+#filtroProdutos {
+    font-size: 16px; 
+    padding: 8px; 
+    border: 1.5px solid #088178; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #465b52; 
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.3s; 
+}
+
+#filtroProdutos:hover {
+    border-color: #e59ce5;
+}
+
+#filtroProdutos:focus {
+    border-color: #088178; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+#filtroProdutos option {
+    background-color: #fff; 
+    color: #465b52; 
+}
+
 /* Inicio pagina de contato */
 
 #contato-header{
