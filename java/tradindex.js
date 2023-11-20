@@ -3,17 +3,30 @@
 var botaoMain = document.getElementById("botaomain");
 
 botaoMain.addEventListener("click", function() {
-    // Redirecione para a página loja.html
+    // Redireciona para a página loja.html
     window.location.href = "loja.html";
   });
 
   var bannerwdbutton = document.getElementById("bannerwdbutton");
 
   bannerwdbutton.addEventListener("click", function() {
-    // Redirecione para a página loja.html
+    // Redireciona para a página loja.html
     window.location.href = "loja.html";
-  });
+  }); 
 
+  var bmbutton = document.getElementById("bmbutton");
+
+  bmbutton.addEventListener("click", function() {
+    // Redireciona para a página cart.html
+    window.location.href = "cart.html";
+  }); 
+
+  var bmbutton2 = document.getElementById("bmbutton2");
+
+  bmbutton2.addEventListener("click", function() {
+    // Redireciona para a página cart.html
+    window.location.href = "cart.html";
+  }); 
   
 
 var translations = {
@@ -42,12 +55,12 @@ var translations = {
       'novidadespro' : 'Novidades',
       'anuncio2' : 'Nova Coleção de Design',
       'bmmain' : 'Ofertas Imperdíveis',
-      'bmdesc' : 'Pague 2 Leve 1!' ,
-      'bmspan' : 'A melhor coleção está em desconto!',
+      'bmdesc' : 'Utilize o cupom "FAVIP"' ,
+      'bmspan' : 'Para 5% de desconto!',
       'bmbutton' : 'Saiba Mais',
       'bmmain2' : 'Ofertas Perdíveis',
-      'bmdesc2' : 'Pague 1 Leve 2' ,
-      'bmspan2' : 'A coleção está em desconto!',
+      'bmdesc2' : 'Utilize o cupom "MY10"' ,
+      'bmspan2' : 'Para 10% de desconto!',
       'bmbutton2' : 'Saiba Mais',
       'b3main' : 'OFERTA SEMANAL',
       'b3desc' : 'Oferta da Semana - 50% de desconto',
@@ -103,12 +116,12 @@ var translations = {
       'novidadespro' : 'New Arrivals',
       'anuncio2' : 'New Design Collection',
       'bmmain' : 'Unmissable Offers!',
-      'bmdesc' : '1 For The Price of 2!' ,
-      'bmspan' : 'The Best Collection is on sale!',
+      'bmdesc' : 'Use coupon "FAVIP"' ,
+      'bmspan' : 'For 5% Off!',
       'bmbutton' : 'Learn More',
       'bmmain2' : 'Missable Offers',
-      'bmdesc2' : 'Buy One, Get One Free' ,
-      'bmspan2' : 'The Collection is On Sale!',
+      'bmdesc2' : 'Use coupon "MY10"' ,
+      'bmspan2' : 'For 10% Off!',
       'bmbutton2' : 'Learn More',
       'b3main' : 'WEEKLY OFFER',
       'b3desc' : 'Weekly Offer - 50% Off',

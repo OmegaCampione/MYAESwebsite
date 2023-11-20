@@ -147,6 +147,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     "Desconto aplicado: 20%"
                 );
                 break;
+                case 'INUTIL':
+                    applyDiscountAndShowWarning(
+                        1.00, // easteregg
+                        renderCartItems,
+                        couponWarning,
+                        "D̴̟̹̅͗è̶͍͘s̸̓͜c̷̻̯̋͝o̴̧͕̊n̵̞̽̐t̵̲̭͌o̶̫̓ ̴͔̍A̸͖͗p̶̨̳̃̈ḷ̶̎ĩ̷̛͚c̸̢̖̑̓a̴͒͜ď̵͎̞ò̸̫̥"
+                    );
+                    break;
             default:
                 couponWarning.innerText = "Cupom inválido.";
 

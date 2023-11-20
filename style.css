@@ -383,7 +383,7 @@ body{
 }
 
 #banner-menor .box-banner2{
-    background-image: url(img/bannermn2.jpg);
+    background-image: url(img/bannermn1.jpg);
 }
 
 #banner-menor {
@@ -427,7 +427,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/bannermn1.jpg");
+    background-image: url("img/bannermn2.jpg");
     height: 30vh;
     min-width: 30%;
     background-size: cover;
