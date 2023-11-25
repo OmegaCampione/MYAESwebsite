@@ -988,7 +988,7 @@ color: #ffffff ;
 }
 
 #cart table td:nth-child(2){
-    width: 200px;
+    width: 500px;
     text-align: center;
 }
 
@@ -1363,6 +1363,10 @@ h1 {
     #about-head div{
         padding-left: 0px;
 }
+#cart table thead td{
+    padding: 17px 0px;
+}
+
 
 
 }

@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <td>${item.size}</td>
                 <td>${item.quantity}</td>
                 <td>R$ ${item.subtotal.toFixed(2)}</td>
-                <td><span class="remove-btn" data-index="${index}">Remover</span></td>
+                <td><span class="remove-btn" data-index="${index}"><i class="fa-solid fa-trash"></i></span></td>
             `;
             cartTableBody.appendChild(row);
 
