@@ -34,7 +34,7 @@ function filterProducts() {
    // Chamar a função para exibir todos os produtos inicialmente
    filterProducts();
 
-// Botão de alterar imagens na página do produto
+/* (removido) Botão de alterar imagens na página do produto
 
 var MainImg = document.getElementById("MainImg");
 var smallimg = document.getElementsByClassName("small-img");
@@ -50,7 +50,7 @@ smallimg[2].onclick = function(){
 }
 smallimg[3].onclick = function(){
   MainImg.src = smallimg[3].src;
-}
+} */
 
 //não aceitar qtd negativa
 

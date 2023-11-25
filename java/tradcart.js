@@ -8,17 +8,26 @@ var translations = {
       'blogh' : 'Blog',
       'sobreh': 'Sobre',
       'contatoh' : 'Contato',
-      'textocartheader1': '#Finalizando_Compras',
-      'textocartheader2': 'Confira seus produtos e finalize suas compras',
-      'textocart1': "Remover",
-      'textocart2': "Imagem",
-      'textocart3': "Produto",
-      'textocart4': "Preço",
+      'textocartheader1': 'Carrinho de Compras',
+      'textocart1': "Produto",
+      'textocart2': "Descrição",
+      'textocart3': "Preço",
+      'textocart4': "Imagem",
       'textocart5': "Quantidade",
       'textocart6': "Subtotal",
       'textocupom': "Aplicar Cupom",
       'placeholdercupom': "Insira seu cupom",
-      'textocupom2': "Aplicar",
+      'textobutcupom2': "Aplicar",
+      'textocarrinho1': "Valor Total",
+      'textocarrinho2': "Valor Subtotal",
+      'textocarrinho3':"Frete",
+      'textocarrinho4': "Grátis",
+      'textocarrinho6': "Desconto",
+      'textocarrinho7': "Prosseguir para o pagamento",
+      'notmain' : 'Se Inscreva para Receber Novidades',
+      'notdesc': 'Receba atualizações por email sobre nossos mais novos produtos e <span class="highlight">ofertas especiais</span>',
+      'notbutton' : 'Inscreva-se',
+      'emailInput': 'Seu email',
       'ftcont': 'Contato',
       'ftendere': 'Endereço:',
       'ftfone': 'Telefone:',
@@ -46,17 +55,26 @@ var translations = {
       'blogh': 'Blog', //duh
       'sobreh': 'About',
       'contatoh' : 'Contact',
-      'textocartheader1': '#Checking_Out',
-      'textocartheader2': 'Review your items and complete your purchase.',
-      'textocart1': "Remove",
-      'textocart2': "Image",
-      'textocart3': "Product",
-      'textocart4': "Price",
+      'textocartheader1': 'Shopping Cart',
+      'textocart1': "Product",
+      'textocart2': "Description",
+      'textocart3': "Price",
+      'textocart4': "Image",
       'textocart5': "Quantity",
       'textocart6': "Subtotal",
       'textocupom': "Apply Coupon",
       'placeholdercupom': "Enter your coupon",
-      'textocupom2': "Apply",
+      'textobutcupom2': "Apply",
+      'textocarrinho1': "Total Price",
+      'textocarrinho2': "Subtotal Price",
+      'textocarrinho3':"Shipping",
+      'textocarrinho4': "Free",
+      'textocarrinho6': "Discount",
+      'textocarrinho7': "Proceed With Payment",
+      'notmain' : 'Sign Up For Newsletters',
+      'notdesc': 'Receive email updates about our latest products and <span class="highlight">special offers</span>',
+      'notbutton' : 'Subscribe',
+      'emailInput': 'Your e-mail',
       'ftcont': 'Contact',
       'ftendere': 'Address:',
       'ftfone': 'Phone:',
@@ -95,16 +113,28 @@ var translations = {
     document.getElementById('sobreh').textContent = translations[currentLanguage]['sobreh'];
     document.getElementById('contatoh').textContent = translations[currentLanguage]['contatoh'];
     document.getElementById('textocartheader1').textContent = translations[currentLanguage]['textocartheader1'];
-    document.getElementById('textocartheader2').textContent = translations[currentLanguage]['textocartheader2'];
     document.getElementById('textocart1').textContent = translations[currentLanguage]['textocart1'];
     document.getElementById('textocart2').textContent = translations[currentLanguage]['textocart2'];
     document.getElementById('textocart3').textContent = translations[currentLanguage]['textocart3'];
     document.getElementById('textocart4').textContent = translations[currentLanguage]['textocart4'];
     document.getElementById('textocart5').textContent = translations[currentLanguage]['textocart5'];
     document.getElementById('textocart6').textContent = translations[currentLanguage]['textocart6'];
+    document.getElementById('textobutcupom2').textContent = translations[currentLanguage]['textobutcupom2'];
+    document.getElementById('textocarrinho1').textContent = translations[currentLanguage]['textocarrinho1'];
+    document.getElementById('textocarrinho2').textContent = translations[currentLanguage]['textocarrinho2'];
+    document.getElementById('textocarrinho3').textContent = translations[currentLanguage]['textocarrinho3'];
+    document.getElementById('textocarrinho4').textContent = translations[currentLanguage]['textocarrinho4'];
+    document.getElementById('textocarrinho6').textContent = translations[currentLanguage]['textocarrinho6'];
+    document.getElementById('textocarrinho7').textContent = translations[currentLanguage]['textocarrinho7'];
     var placeholdernome = document.getElementById('placeholdercupom');
     placeholdernome.placeholder = translations[currentLanguage]['placeholdercupom'];
     document.getElementById('textocupom').textContent = translations[currentLanguage]['textocupom'];
+    document.getElementById('notmain').textContent = translations[currentLanguage]['notmain'];
+    var notdesc = document.getElementById('notdesc');
+    notdesc.innerHTML = translations[currentLanguage]['notdesc'];
+    document.getElementById('notbutton').textContent = translations[currentLanguage]['notbutton'];
+    var emailInput = document.getElementById('emailInput');
+    emailInput.placeholder = translations[currentLanguage]['emailInput'];
     document.getElementById('ftcont').textContent = translations[currentLanguage]['ftcont'];
     document.getElementById('ftendere').textContent = translations[currentLanguage]['ftendere'];
     document.getElementById('ftfone').textContent = translations[currentLanguage]['ftfone'];
