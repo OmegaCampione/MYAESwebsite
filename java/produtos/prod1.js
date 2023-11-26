@@ -27,8 +27,7 @@ var translations = {
       'ftdesejos': 'Lista de Desejos',
       'ftajuda': 'Ajuda',
       'ftcopyright': '© 2023, MYstic Aesthetic',
-      'textoprod1':'Camisa casual',
-      'textoprod2': 'T-Shirt Casual Masculina',
+      'textoprod1':'Camisa Casual',
       'addToCartBtn': 'Adicionar ao carrinho',
       'textoloja6': 'Detalhes do Produto',
       'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
@@ -65,8 +64,7 @@ var translations = {
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
       'ftcopyright': '© 2023, MYstic Aesthetic',
-      "textoprod1":'casual T-shirt',
-      'textoprod2': 'Men\'s Casual T-Shirt',
+      "textoprod1":'Casual T-shirt',
       'addToCartBtn': 'Add to cart',
       'textoloja6': 'Product Details',
       'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
@@ -116,7 +114,6 @@ var translations = {
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
     document.getElementById('textoprod1').textContent = translations[currentLanguage]['textoprod1'];
-    document.getElementById('textoprod2').textContent = translations[currentLanguage]['textoprod2'];
     document.getElementById('addToCartBtn').textContent = translations[currentLanguage]['addToCartBtn'];
     document.getElementById('textoloja6').textContent = translations[currentLanguage]['textoloja6'];
     document.getElementById('textoloja7').textContent = translations[currentLanguage]['textoloja7'];

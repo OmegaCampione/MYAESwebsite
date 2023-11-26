@@ -27,6 +27,10 @@ var translations = {
       'ftdesejos': 'Lista de Desejos',
       'ftajuda': 'Ajuda',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      'textoprod1':'Camisa Casual',
+      'addToCartBtn': 'Adicionar ao carrinho',
+      'textoloja6': 'Detalhes do Produto',
+      'textoloja7': 'O "Manto do Abismo Estelar Primordial" é uma expressão audaciosa de elegância cósmica, com sua tonalidade profunda evocando o abismo estelar e detalhes brilhantes simulando estrelas distantes. Sua silhueta imponente e textura luxuosa oferecem conforto sem igual, enquanto bordados estelares e capuz celestial adicionam um toque dramático, tornando-o ideal para eventos especiais ou para um estilo diário que transcende o convencional.',
       'textoloja8': 'Produtos Em Destaque',
       'textoloja9': 'Nova Coleção de Design',
 
@@ -58,6 +62,10 @@ var translations = {
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      "textoprod1":'Casual T-shirt',
+      'addToCartBtn': 'Add to cart',
+      'textoloja6': 'Product Details',
+      'textoloja7': 'The "Manto do Abismo Estelar Primordial" is a bold expression of cosmic elegance, with its deep hue evoking the stellar abyss and brilliant details simulating distant stars. Its stately silhouette and luxurious texture offer unparalleled comfort, while stellar embroidery and celestial hood add a dramatic touch, making it ideal for special events or everyday style that transcends the conventional.',
       'textoloja8': 'Featured Products',
       'textoloja9': 'New Design Collection',
   
@@ -101,6 +109,10 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+    document.getElementById('textoprod1').textContent = translations[currentLanguage]['textoprod1'];
+    document.getElementById('addToCartBtn').textContent = translations[currentLanguage]['addToCartBtn'];
+    document.getElementById('textoloja6').textContent = translations[currentLanguage]['textoloja6'];
+    document.getElementById('textoloja7').textContent = translations[currentLanguage]['textoloja7'];
     document.getElementById('textoloja8').textContent = translations[currentLanguage]['textoloja8'];
     document.getElementById('textoloja9').textContent = translations[currentLanguage]['textoloja9'];
   }

@@ -27,6 +27,10 @@ var translations = {
       'ftdesejos': 'Lista de Desejos',
       'ftajuda': 'Ajuda',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      'textoprod1':'Camisa Casual',
+      'addToCartBtn': 'Adicionar ao carrinho',
+      'textoloja6': 'Detalhes do Produto',
+      'textoloja7': 'Vórtice Alquímico de Esplendor Bicromático" é uma peça que transcende a moda convencional. Com uma combinação hipnotizante de dois tons, cria um vórtice de esplendor alquímico. Esta peça não é apenas uma vestimenta; é uma expressão ousada de estilo que captura a atenção com sua estética única. Ideal para aqueles que buscam adicionar uma dimensão dinâmica e sofisticada ao seu guarda-roupa.',
       'textoloja8': 'Produtos Em Destaque',
       'textoloja9': 'Nova Coleção de Design',
 
@@ -58,6 +62,10 @@ var translations = {
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      "textoprod1":'Casual T-shirt',
+      'addToCartBtn': 'Add to cart',
+      'textoloja6': 'Product Details',
+      'textoloja7': 'Vórtice Alquímico de Esplendor Bicromático" is a piece that transcends conventional fashion. With a mesmerizing combination of two tons, it creates a vortex of alchemical splendor. This piece is not just a garment; It is a bold expression of style that captures attention with its unique aesthetic. Ideal for those looking to add a dynamic and developed dimension to their wardrobe.',
       'textoloja8': 'Featured Products',
       'textoloja9': 'New Design Collection',
   
@@ -101,6 +109,10 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+    document.getElementById('textoprod1').textContent = translations[currentLanguage]['textoprod1'];
+    document.getElementById('addToCartBtn').textContent = translations[currentLanguage]['addToCartBtn'];
+    document.getElementById('textoloja6').textContent = translations[currentLanguage]['textoloja6'];
+    document.getElementById('textoloja7').textContent = translations[currentLanguage]['textoloja7'];
     document.getElementById('textoloja8').textContent = translations[currentLanguage]['textoloja8'];
     document.getElementById('textoloja9').textContent = translations[currentLanguage]['textoloja9'];
   }

@@ -27,6 +27,10 @@ var translations = {
     'ftdesejos': 'Lista de Desejos',
     'ftajuda': 'Ajuda',
     'ftcopyright': '© 2023, MYstic Aesthetic',
+    'textoprod1':'Camisa Casual',
+    'addToCartBtn': 'Adicionar ao carrinho',
+    'textoloja6': 'Detalhes do Produto',
+    'textoloja7': '"Mistério da Elegância: O Eclipse de Prata" é uma peça única inspirada no fascínio do eclipse. Com tonalidade prateada e detalhes artísticos, esta criação proporciona um toque de mistério e sofisticação. Ideal para quem busca um estilo intrigante em ocasiões especiais ou no dia a dia.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -58,6 +62,10 @@ var translations = {
     'ftdesejos': 'Wishlist',
     'ftajuda': 'Help',
     'ftcopyright': '© 2023, MYstic Aesthetic',
+    "textoprod1":'Casual T-shirt',
+    'addToCartBtn': 'Add to cart',
+    'textoloja6': 'Product Details',
+    'textoloja7': '"Mistério da Elegância: O Eclipse de Prata" is a unique piece inspired by the allure of the eclipse. With a silver hue and artistic details, this creation provides a touch of mystery and sophistication. Ideal for those looking for an intriguing style for special occasions or everyday life.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection',
 
@@ -101,6 +109,10 @@ function changeLanguage() {
   document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
   document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
   document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+  document.getElementById('textoprod1').textContent = translations[currentLanguage]['textoprod1'];
+  document.getElementById('addToCartBtn').textContent = translations[currentLanguage]['addToCartBtn'];
+  document.getElementById('textoloja6').textContent = translations[currentLanguage]['textoloja6'];
+  document.getElementById('textoloja7').textContent = translations[currentLanguage]['textoloja7'];
   document.getElementById('textoloja8').textContent = translations[currentLanguage]['textoloja8'];
   document.getElementById('textoloja9').textContent = translations[currentLanguage]['textoloja9'];
 }

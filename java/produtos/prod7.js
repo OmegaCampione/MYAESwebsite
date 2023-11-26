@@ -27,6 +27,10 @@ var translations = {
       'ftdesejos': 'Lista de Desejos',
       'ftajuda': 'Ajuda',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      'textoprod1':'Calça',
+      'addToCartBtn': 'Adicionar ao carrinho',
+      'textoloja6': 'Detalhes do Produto',
+      'textoloja7': 'A "Pantalona Mística do Véio Floricultor" é uma fusão única de estilo e singularidade. Com um toque místico e padrões florais encantados, essa peça oferece conforto e uma declaração de moda descontraída e cheia de personalidade, perfeita para capturar o espírito do "Véio Floricultor".',  
       'textoloja8': 'Produtos Em Destaque',
       'textoloja9': 'Nova Coleção de Design',
 
@@ -58,6 +62,10 @@ var translations = {
       'ftdesejos': 'Wishlist',
       'ftajuda': 'Help',
       'ftcopyright': '© 2023, MYstic Aesthetic',
+      'textoprod1':'Pants',
+      'addToCartBtn': 'Add to cart',
+      'textoloja6': 'Product Details',
+      'textoloja7': 'The "Pantalona Mística do Véio Floricultor" is a unique fusion of style and singularity. With a mystical touch and enchanted floral patterns, this piece offers comfort and a relaxed, characterful fashion statement, perfect for capturing the spirit of the "Old Florist."',      
       'textoloja8': 'Featured Products',
       'textoloja9': 'New Design Collection',
   
@@ -101,6 +109,10 @@ var translations = {
     document.getElementById('ftcarrinho').textContent = translations[currentLanguage]['ftcarrinho'];
     document.getElementById('ftajuda').textContent = translations[currentLanguage]['ftajuda'];
     document.getElementById('ftcopyright').textContent = translations[currentLanguage]['ftcopyright'];
+    document.getElementById('textoprod1').textContent = translations[currentLanguage]['textoprod1'];
+    document.getElementById('addToCartBtn').textContent = translations[currentLanguage]['addToCartBtn'];
+    document.getElementById('textoloja6').textContent = translations[currentLanguage]['textoloja6'];
+    document.getElementById('textoloja7').textContent = translations[currentLanguage]['textoloja7'];
     document.getElementById('textoloja8').textContent = translations[currentLanguage]['textoloja8'];
     document.getElementById('textoloja9').textContent = translations[currentLanguage]['textoloja9'];
   }
