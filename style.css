@@ -1391,3 +1391,11 @@ th {
     cursor: pointer;
     color: red;
 }
+
+.people i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;}
+
+.people i:hover {
+    color: #088178;}
