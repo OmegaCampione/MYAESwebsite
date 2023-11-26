@@ -30,7 +30,7 @@ var translations = {
       'textoprod1':'Camisa Casual',
       'addToCartBtn': 'Adicionar ao carrinho',
       'textoloja6': 'Detalhes do Produto',
-      'textoloja7': 'O "Manto do Abismo Estelar Primordial" é uma expressão audaciosa de elegância cósmica, com sua tonalidade profunda evocando o abismo estelar e detalhes brilhantes simulando estrelas distantes. Sua silhueta imponente e textura luxuosa oferecem conforto sem igual, enquanto bordados estelares e capuz celestial adicionam um toque dramático, tornando-o ideal para eventos especiais ou para um estilo diário que transcende o convencional.',
+      'textoloja7': 'Vista-se na grandiosidade do "Manto do Abismo Estelar Primordial," uma camisa formal de manga longa. Esta vestimenta, adornada com dois bolsos e gola com botões, transcende o ordinário; é um artefato de nobreza celestial. A tonalidade distinta evoca ecos de sabedoria ancestral, ocultando dentro de seus fios mistérios cósmicos incontáveis. Ao envolver-se neste manto, imagine-se como um viajante celestial, adornado com a elegância do abismo cósmico. O "Manto do Abismo Estelar Primordial" é imponente, suas texturas luxuosas oferecem um conforto sem igual. Elevando-se para além do comum, esta peça é uma expressão única de esplendor, majestade e uma sofisticação inigualável.',
       'textoloja8': 'Produtos Em Destaque',
       'textoloja9': 'Nova Coleção de Design',
 
@@ -65,7 +65,7 @@ var translations = {
       "textoprod1":'Casual T-shirt',
       'addToCartBtn': 'Add to cart',
       'textoloja6': 'Product Details',
-      'textoloja7': 'The "Manto do Abismo Estelar Primordial" is a bold expression of cosmic elegance, with its deep hue evoking the stellar abyss and brilliant details simulating distant stars. Its stately silhouette and luxurious texture offer unparalleled comfort, while stellar embroidery and celestial hood add a dramatic touch, making it ideal for special events or everyday style that transcends the conventional.',
+      'textoloja7': 'Cloak yourself in the grandeur of the "Manto do Abismo Estelar Primordial," a formal long-sleeved shirt. This garment, embellished with two pockets and a buttoned collar, transcends the ordinary; it is an artifact of celestial nobility. The distinctive hue evokes echoes of ancient wisdom, concealing within its threads countless cosmic mysteries. As you envelop yourself in this mantle, envision yourself as a celestial sojourner, draped in the elegance of the cosmic abyss. The "Manto do Abismo Estelar Primordial" is imposing, and its luxurious textures offer unparalleled comfort. Rising above the commonplace, this piece is a singular expression of splendor, majesty, and unmatched sophistication.',
       'textoloja8': 'Featured Products',
       'textoloja9': 'New Design Collection',
   

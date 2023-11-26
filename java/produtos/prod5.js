@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
+    'textoloja7': 'Afunde-se na "T-shirt Sinfonia das Pétalas Imponentes", uma obra-prima em azul profundo. Nesta camisa, pequenas pétalas rosa dançam na parte inferior, enquanto a parte superior é dominada por incontáveis flores rosa que quase que por completo envolvem o tecido. Uma sinfonia visual, onde o azul profundo contrasta com a exuberância das flores, criando uma harmonia imponente. Cada pétala é uma nota nesta melodia de elegância, fazendo desta camisa uma expressão artística da sinfonia floral que cativa os olhares. A "T-shirt Sinfonia das Pétalas Imponentes" é mais do que uma peça de vestuário; é uma celebração da grandiosidade das flores em pleno esplendor.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -67,7 +67,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
+    'textoloja7': 'Immerse yourself in the "T-shirt Sinfonia das Pétalas Imponentes," a masterpiece in deep blue. In this shirt, small pink petals dance at the bottom, while the top is dominated by countless pink flowers that almost completely envelop the fabric. A visual symphony where the deep blue contrasts with the exuberance of the flowers, creating an imposing harmony. Each petal is a note in this melody of elegance, making this shirt an artistic expression of the floral symphony that captivates the eyes. The "T-shirt Sinfonia das Pétalas Imponentes" is more than a piece of clothing; it is a celebration of the grandeur of flowers in full splendor.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection'
 

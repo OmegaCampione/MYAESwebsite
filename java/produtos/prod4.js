@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
+    'textoloja7': 'Embale-se na eternidade da primavera com a "T-shirt Éter Floral Imortal". Este design apresenta uma camisa totalmente branca, delicadamente adornada por flores rosa. A profusão de flores, embora abundante, permite que o branco imortal da camisa permaneça em destaque. Cada pétala é um tributo à beleza que transcende o efêmero, criando uma sinfonia visual que dança entre a pureza e a exuberância. A "T-shirt Éter Floral Imortal" é mais do que uma vestimenta; é uma expressão imortal da elegância floral que persiste além do tempo.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -67,7 +67,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
+    'textoloja7': 'Immerse yourself in the eternity of spring with the "T-shirt Éter Floral Imortal." This design features an all-white shirt delicately adorned with pink flowers. The profusion of flowers, though abundant, allows the immortal white of the shirt to remain prominent. Each petal is a tribute to beauty that transcends the ephemeral, creating a visual symphony that dances between purity and exuberance. The "T-shirt Éter Floral Imortal" is more than apparel; it is an immortal expression of floral elegance that persists beyond time.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection'
 

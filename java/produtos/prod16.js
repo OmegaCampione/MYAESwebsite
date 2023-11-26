@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
+    'textoloja7': 'Desperte a elegância nas sombras com a "Lux Obsidiana Nocturna: Sideris Ônix". Esta camisa preta, minimalista e com bolso discreto, eleva o estilo noturno a um patamar de refinamento. O toque suave do tecido proporciona conforto, enquanto os botões destacam a sofisticação em cada detalhe. Sua essência é uma fusão de mistério e luxo, capturando a magia da noite em uma peça única e atemporal. Sideris Ônix, uma celebração da elegância obsidiana que transcende as fronteiras do tempo. Forjada em obsidiana na lendária forja de Sideris Ônix, esta camisa é mais do que uma vestimenta, é uma obra-prima de artesanato noturno.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -67,7 +67,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
+    'textoloja7': 'Awaken elegance in the shadows with the "Lux Obsidiana Nocturna." This black shirt, minimalist and featuring a discreet pocket, elevates nighttime style to a level of refinement. The soft touch of the fabric provides comfort, while the buttons accentuate sophistication in every detail. Its essence is a fusion of mystery and luxury, capturing the magic of the night in a unique and timeless piece. Forged in obsidian at the legendary forge of Sideris Ônix, this shirt is more than apparel; it is a masterpiece of the long lost art of nocturnal craftsmanship.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection'
 

@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
+    'textoloja7': 'Embrace a natureza exuberante com a "T-shirt Florescência Épica". Esta camisa bege, adornada com flores brancas e vibrantes toques laranja, traz consigo a elegância da natureza em pleno florescer. Os longos caules verdes dominam o tecido como pinceladas de uma obra-prima botânica, conferindo uma aura de frescor e vitalidade. Cada detalhe é uma sinfonia de cores, criando uma peça única que captura a beleza efêmera da flora. A "T-shirt Florescência Épica" é mais do que uma simples vestimenta; é uma celebração épica da vida em seu esplendor floral.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -67,7 +67,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
+    'textoloja7': 'Embrace lush nature with the "T-shirt Florescência Épica." This beige shirt, adorned with white flowers and vibrant orange accents, carries the elegance of nature in full bloom. Long green stems dominate the fabric like strokes from a botanical masterpiece, imparting an aura of freshness and vitality. Every detail is a symphony of colors, creating a unique piece that captures the ephemeral beauty of flora. The "T-shirt Florescência Épica" is more than just apparel; it is an epic celebration of life in its floral splendor.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection'
 

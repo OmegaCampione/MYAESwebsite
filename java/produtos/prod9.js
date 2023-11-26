@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': '"Blue Velvet: Armadura dos Destemidos" é uma expressão de coragem e estilo. Com um toque de veludo azul, esta peça de vestuário não é apenas uma armadura, mas uma declaração de destemor e elegância. Ideal para aqueles que buscam um visual audacioso e distintivo.',
+    'textoloja7': 'Envolva-se na majestade da "Blue Velvet: Armadura dos Destemidos" e entre em uma saga épica e sinistra. Nesta camisa azul clara, a simplicidade do tecido esconde uma narrativa grandiosa que ecoa através dos tempos. Como uma armadura celestial, ela transcende a moda com sua aura de destemor. O veludo azul, suave ao toque, revela segredos ancestrais enquanto os destemidos que a vestem se tornam protagonistas de uma história de coragem e bravura. "Blue Velvet: Armadura dos Destemidos" não é apenas uma vestimenta, mas um artefato lendário, uma peça essencial na jornada épica daqueles que ousam desafiar o desconhecido.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -65,7 +65,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': '"Blue Velvet: Armadura dos Destemidos" is an expression of courage and style. With a touch of blue velvet, this garment is not just armor, but a statement of fearlessness and elegance. Ideal for those looking for a bold and distinctive look.',
+    'textoloja7': 'Drape yourself in the majesty of "Blue Velvet: Armor of the Fearless" and step into an epic and sinister saga. In this light blue shirt, the simplicity of the fabric conceals a grand narrative that echoes through the ages. Like celestial armor, it transcends fashion with its aura of fearlessness. The soft-touch blue velvet unveils ancestral secrets, while those who wear it become protagonists in a story of courage and bravery. "Blue Velvet: Armor of the Fearless" is not just attire but a legendary artifact, an essential piece in the epic journey of those who dare to defy the unknown.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection',
 

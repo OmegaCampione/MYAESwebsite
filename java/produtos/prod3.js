@@ -30,7 +30,7 @@ var translations = {
     'textoprod1':'Camisa Casual',
     'addToCartBtn': 'Adicionar ao carrinho',
     'textoloja6': 'Detalhes do Produto',
-    'textoloja7': 'Estampa exclusiva bem colorida e leve, estilo havaiana, que transmite alegria e descontração. Camisa de modelagem confortável, masculina e de manga curta. O tecido é 100% Viscose na cor preta, macio e de caimento bem leve.   Ideal para festa, eventos e praia. Combina bem com bermuda ou calça preta lisa. É uma camisa florida estilosa, barata e produzida artesanalmente em alta qualidade.',
+    'textoloja7': 'Desperte a exuberância do deserto com a "T-shirt Buquê Desértico". Este tom sutil de bege se torna quase invisível diante da profusão de flores vermelhas, azuis, rosa, laranja e verde que cobrem a camisa como um vibrante buquê. Os caules entrelaçados lembram a harmonia de uma obra culinária, criando uma paleta de cores única e cativante. Cada detalhe é um convite para um passeio no deserto florido, onde a beleza resplandece em tons que lembram a diversidade de uma pizza artesanal. A "T-shirt Buquê Desértico" é uma celebração da vida em meio à aridez, uma explosão de cores que transforma o simples em algo extraordinário.',
     'textoloja8': 'Produtos Em Destaque',
     'textoloja9': 'Nova Coleção de Design',
 
@@ -67,7 +67,7 @@ var translations = {
     "textoprod1":'Casual T-shirt',
     'addToCartBtn': 'Add to cart',
     'textoloja6': 'Product Details',
-    'textoloja7': 'Exclusive, very colorful and light print, Hawaiian style, which conveys joy and relaxation. Comfortable, masculine, short-sleeved shirt. The fabric is 100% black Viscose, soft and with a very light fit. Ideal for parties, events and the beach. It goes well with shorts or plain black pants. It is a stylish, cheap and handcrafted, high-quality floral shirt.',
+    'textoloja7': 'Awaken the exuberance of the desert with the "T-shirt Buquê Desértico." This subtle beige hue becomes almost invisible in the profusion of red, blue, pink, orange, and green flowers that cover the shirt like a vibrant bouquet. The intertwined stems evoke the harmony of a culinary masterpiece, creating a unique and captivating color palette. Every detail is an invitation to a stroll in the blooming desert, where beauty radiates in tones reminiscent of the diversity of a handcrafted pizza. The "T-shirt Buquê Desértico" is a celebration of life amidst aridity, an explosion of colors that transforms the ordinary into something extraordinary.',
     'textoloja8': 'Featured Products',
     'textoloja9': 'New Design Collection'
 
