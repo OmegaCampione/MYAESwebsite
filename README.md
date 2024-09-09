@@ -4,7 +4,7 @@
 
 ## Overview
 
-Mystical Aesthetics is a personal project created to develop my web development skills. The website showcases a minimalist, clean design, allowing me to experiment with front-end technologies like HTML, CSS, and JavaScript.
+Mystical Aesthetics is a project created to develop web development skills. The website showcases a minimalist, clean design, allowing for front-end technologies experimentation, such as HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -36,8 +36,4 @@ To view the project locally:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
-
----
-
-- **Screenshots**: tbd
+This project is currently not licensed for public use. All rights reserved by the author. Please contact me for more information.
